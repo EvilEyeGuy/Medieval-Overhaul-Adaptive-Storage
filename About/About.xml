@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Medieval Overhaul: Adaptive Storage</name>
+	<author>Evil Eye Guy</author>
+	<packageId>EEG.MOxASF</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description></description>
+	<modDependencies>
+		<li>
+			<packageId>DankPyon.Medieval.Overhaul</packageId>
+			<displayName>Medieval Overhaul</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>adaptive.storage.framework</packageId>
+			<displayName>Adaptive Storage Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3033901359</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>DankPyon.Medieval.Overhaul</li>
+		<li>adaptive.storage.framework</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>dutchman.adaptive.mo</li>
+		<li>liuyu.adaptive.mo</li>
+	</incompatibleWith>
+</ModMetaData>

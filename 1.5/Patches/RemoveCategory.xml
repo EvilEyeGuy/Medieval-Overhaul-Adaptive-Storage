@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[
+		defName="DankPyon_BarrelWoodLog" or
+		defName="DankPyon_TableMarket_Meats" or
+		defName="DankPyon_LargeShelf_Bread" or
+		defName="DankPyon_LargeShelfEmpty" or
+		defName="DankPyon_Crate2x2_Bones" or
+		defName="DankPyon_Crate2x2_Unhold" or
+		defName="DankPyon_Crate2x2_Lindwurm" or
+		defName="DankPyon_RusticCupboardBread" or
+		defName="DankPyon_RusticCupboardEmpty" or
+		defName="DankPyon_ShelfEmpty" or
+		defName="DankPyon_RackSword" or
+		defName="DankPyon_RackEmpty"
+		]</xpath>
+        <value>
+            <designationCategory Inherit="false"/>
+        </value>
+    </Operation>
+
+</Patch>
