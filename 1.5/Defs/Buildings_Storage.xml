@@ -2098,7 +2098,334 @@
 			</columns>
 		</itemGraphics>
 	</AdaptiveStorage.GraphicsDef>
+	
+	<ThingDef ParentName="DankPyon_EmptyRackBaseASF">
+		<defName>DankPyon_RackRange2x1a</defName>
+		<description>A rack for storting larger bows.\nItems stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
+		<label>Ranged rack (A)</label>
+		<building>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>Bow_Great</li>
+						<li>Bow_War</li>
+						<li>DankPyon_Bow_Hunting</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>Bow_Great</li>
+						<li>Bow_War</li>
+						<li>DankPyon_Bow_Hunting</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<modExtensions>
+			<li Class="AdaptiveStorage.Extension">
+				<labelFormat>NoStuff</labelFormat>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="DankPyon_EmptyRackBaseASF">
+		<defName>DankPyon_RackRange2x1b</defName>
+		<description>A rack for storting smaller baws.\nItems stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
+		<label>Ranged rack (B)</label>
+		<building>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>Bow_Recurve</li>
+						<li>Bow_Short</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>Bow_Recurve</li>
+						<li>Bow_Short</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<modExtensions>
+			<li Class="AdaptiveStorage.Extension">
+				<labelFormat>NoStuff</labelFormat>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="DankPyon_EmptyRackBaseASF">
+		<defName>DankPyon_RackRange2x1c</defName>
+		<description>A rack for storting differnt kind of ranged weapons.\nItems stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
+		<label>Ranged rack (C)</label>
+		<building>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>DankPyon_Crossbow</li>
+						<li>DankPyon_CrossbowHeavy</li>
+						<li>DankPyon_Handgonne</li>
+					</thingDefs>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<thingDefs>
+						<li>DankPyon_Crossbow</li>
+						<li>DankPyon_CrossbowHeavy</li>
+						<li>DankPyon_Handgonne</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<modExtensions>
+			<li Class="AdaptiveStorage.Extension">
+				<labelFormat>NoStuff</labelFormat>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
+   <AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_RackRange2x1aASF</defName>
+		<targetDef>DankPyon_RackRange2x1a</targetDef>
+        <graphics>
+            <li>
+                <graphicData>
+					<texPath>Storage/RackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+                </graphicData>
+				<graphicDatas>
+					<li>
+						<texPath>Storage/RackEmptyLayer</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3,3)</drawSize>
+						<drawRotated>false</drawRotated>
+						<drawOffset>(0,+0.2,0)</drawOffset>
+					</li>
+				</graphicDatas>
+            </li>
+        </graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns>
+				<c0>
+					<rows>
+						<r0>
+							<drawScale>1</drawScale>
+							<rotation>315</rotation>
+							<stackRotation>1</stackRotation>
+							<stackBehaviour>Stack</stackBehaviour>
+							<stackOffsetFactor>1</stackOffsetFactor>
+		
+							<stackOffset>(0,0,0)</stackOffset>
+							<drawOffset>(0,0,0)</drawOffset>	
+							
+							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0,-0.05,0.2)</stackOffsetEast>
+							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(0,-0.05,0.2)</stackOffsetWest>
+							
+							<drawOffsetNorth>(0.05,-1,0.4)</drawOffsetNorth>
+							<drawOffsetEast>(0.18,-1,0.3)</drawOffsetEast>
+							<drawOffsetSouth>(0.05,0,0.2)</drawOffsetSouth>
+							<drawOffsetWest>(-0.18,-1,0.3)</drawOffsetWest>
+						</r0>
+					</rows>
+				</c0>
+				<c1>
+					<rows>
+						<r0>
+							<drawScale>1</drawScale>
+							<rotation>315</rotation>
+							<stackRotation>1</stackRotation>
+							<stackBehaviour>Stack</stackBehaviour>
+							<stackOffsetFactor>1</stackOffsetFactor>
+		
+							<stackOffset>(0,0,0)</stackOffset>
+							<drawOffset>(0,0,0)</drawOffset>	
+							
+							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0,-0.02,0.2)</stackOffsetEast>
+							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(0,-0.02,0.2)</stackOffsetWest>
+							
+							<drawOffsetNorth>(-0.15,-1,0.4)</drawOffsetNorth>
+							<drawOffsetEast>(0.18,-1.1,0.1)</drawOffsetEast>
+							<drawOffsetSouth>(-0.15,0,0.2)</drawOffsetSouth>
+							<drawOffsetWest>(-0.18,-1.1,0.1)</drawOffsetWest>
+						</r0>
+					</rows>
+				</c1>
+			</columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+
+   <AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_RackRange2x1bASF</defName>
+		<targetDef>DankPyon_RackRange2x1b</targetDef>
+        <graphics>
+            <li>
+                <graphicData>
+					<texPath>Storage/RackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+                </graphicData>
+				<graphicDatas>
+					<li>
+						<texPath>Storage/RackEmptyLayer</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3,3)</drawSize>
+						<drawRotated>false</drawRotated>
+						<drawOffset>(0,+0.2,0)</drawOffset>
+					</li>
+				</graphicDatas>
+            </li>
+        </graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns>
+				<c0>
+					<rows>
+						<r0>
+							<drawScale>1</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>1</stackRotation>
+							<stackBehaviour>Stack</stackBehaviour>
+							<stackOffsetFactor>1</stackOffsetFactor>
+		
+							<stackOffset>(0,0,0)</stackOffset>
+							<drawOffset>(0,0,0)</drawOffset>	
+							
+							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0,-0.05,0.2)</stackOffsetEast>
+							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(0,-0.05,0.2)</stackOffsetWest>
+							
+							<drawOffsetNorth>(0.05,-1,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.18,-1,0.2)</drawOffsetEast>
+							<drawOffsetSouth>(0.05,0,0)</drawOffsetSouth>
+							<drawOffsetWest>(-0.18,-1,0.2)</drawOffsetWest>
+						</r0>
+					</rows>
+				</c0>
+				<c1>
+					<rows>
+						<r0>
+							<drawScale>1</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>1</stackRotation>
+							<stackBehaviour>Stack</stackBehaviour>
+							<stackOffsetFactor>1</stackOffsetFactor>
+		
+							<stackOffset>(0,0,0)</stackOffset>
+							<drawOffset>(0,0,0)</drawOffset>	
+							
+							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0,-0.02,0.2)</stackOffsetEast>
+							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(0,-0.02,0.2)</stackOffsetWest>
+							
+							<drawOffsetNorth>(-0.15,-1,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.18,-1.1,0)</drawOffsetEast>
+							<drawOffsetSouth>(-0.15,0,0)</drawOffsetSouth>
+							<drawOffsetWest>(-0.18,-1.1,0)</drawOffsetWest>
+						</r0>
+					</rows>
+				</c1>
+			</columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+
+   <AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_RackRange2x1cASF</defName>
+		<targetDef>DankPyon_RackRange2x1c</targetDef>
+        <graphics>
+            <li>
+                <graphicData>
+					<texPath>Storage/RackEmpty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+                </graphicData>
+				<graphicDatas>
+					<li>
+						<texPath>Storage/RackEmptyLayer</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3,3)</drawSize>
+						<drawRotated>false</drawRotated>
+						<drawOffset>(0,+0.2,0)</drawOffset>
+					</li>
+				</graphicDatas>
+            </li>
+        </graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns>
+				<c0>
+					<rows>
+						<r0>
+							<drawScale>1</drawScale>
+							<rotation>270</rotation>
+							<stackRotation>1</stackRotation>
+							<stackBehaviour>Stack</stackBehaviour>
+							<stackOffsetFactor>1</stackOffsetFactor>
+		
+							<stackOffset>(0,0,0)</stackOffset>
+							<drawOffset>(0,0,0)</drawOffset>	
+							
+							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0,-0.05,0.2)</stackOffsetEast>
+							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(0,-0.05,0.2)</stackOffsetWest>
+							
+							<drawOffsetNorth>(0.05,-1,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.18,-1,0.2)</drawOffsetEast>
+							<drawOffsetSouth>(0.05,0,0)</drawOffsetSouth>
+							<drawOffsetWest>(-0.18,-1,0.2)</drawOffsetWest>
+						</r0>
+					</rows>
+				</c0>
+				<c1>
+					<rows>
+						<r0>
+							<drawScale>1</drawScale>
+							<rotation>270</rotation>
+							<stackRotation>1</stackRotation>
+							<stackBehaviour>Stack</stackBehaviour>
+							<stackOffsetFactor>1</stackOffsetFactor>
+		
+							<stackOffset>(0,0,0)</stackOffset>
+							<drawOffset>(0,0,0)</drawOffset>	
+							
+							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0,-0.02,0.2)</stackOffsetEast>
+							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(0,-0.02,0.2)</stackOffsetWest>
+							
+							<drawOffsetNorth>(-0.15,-1,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.18,-1.1,0)</drawOffsetEast>
+							<drawOffsetSouth>(-0.15,0,0)</drawOffsetSouth>
+							<drawOffsetWest>(-0.18,-1.1,0)</drawOffsetWest>
+						</r0>
+					</rows>
+				</c1>
+			</columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
 
 	<!-- ════════════════════ Empty Shelf ════════════════════ -->
 	
@@ -2222,15 +2549,15 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
+							<stackOffsetNorth>(0,-0.05,0.3)</stackOffsetNorth>
 							<stackOffsetEast>(0,-0.05,0.3)</stackOffsetEast>
 							<stackOffsetSouth>(0,-0.05,0.3)</stackOffsetSouth>
-							<stackOffsetWest>(0,0,0)</stackOffsetWest>
+							<stackOffsetWest>(0,-0.05,0.3)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+							<drawOffsetNorth>(0.8,-1,0.5)</drawOffsetNorth>
 							<drawOffsetEast>(0.8,-1,0.5)</drawOffsetEast>
 							<drawOffsetSouth>(0.2,-1,0.5)</drawOffsetSouth>
-							<drawOffsetWest>(0,0,0)</drawOffsetWest>
+							<drawOffsetWest>(0.2,-1,0.5)</drawOffsetWest>
 						</r0>
 						<r1>
 							<drawScale>0.9</drawScale>
@@ -2242,22 +2569,22 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
+							<stackOffsetNorth>(0,-0.05,0.3)</stackOffsetNorth>
 							<stackOffsetEast>(0,-0.05,0.3)</stackOffsetEast>
 							<stackOffsetSouth>(0,-0.05,0.3)</stackOffsetSouth>
-							<stackOffsetWest>(0,0,0)</stackOffsetWest>
+							<stackOffsetWest>(0,-0.05,0.3)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+							<drawOffsetNorth>(0.4,-1,-0.4)</drawOffsetNorth>
 							<drawOffsetEast>(-0.5,-1,0.6)</drawOffsetEast>
 							<drawOffsetSouth>(0.6,-1,-0.4)</drawOffsetSouth>
-							<drawOffsetWest>(0,0,0)</drawOffsetWest>
+							<drawOffsetWest>(-0.4,-1,0.6)</drawOffsetWest>
 						</r1>
 					</rows>
 				</c0>
 				<c1>
 					<rows>
 						<r0>
-							<drawScale>0.95</drawScale>
+							<drawScale>0.9</drawScale>
 							<rotation>0</rotation>
 							<stackRotation>1</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
@@ -2266,16 +2593,36 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,0,0)</stackOffsetEast>
-							<stackOffsetSouth>(0,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,0,0)</stackOffsetWest>
+							<stackOffsetNorth>(0,-0.05,0.3)</stackOffsetNorth>
+							<stackOffsetEast>(0,-0.05,0.3)</stackOffsetEast>
+							<stackOffsetSouth>(0,-0.05,0.3)</stackOffsetSouth>
+							<stackOffsetWest>(0,-0.05,0.3)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
-							<drawOffsetEast>(0,0,0)</drawOffsetEast>
-							<drawOffsetSouth>(0,0,0)</drawOffsetSouth>
-							<drawOffsetWest>(0,0,0)</drawOffsetWest>
+							<drawOffsetNorth>(-0.9,-1,0.5)</drawOffsetNorth>
+							<drawOffsetEast>(0.1,-1,-0.5)</drawOffsetEast>
+							<drawOffsetSouth>(-0.1,-1,0.5)</drawOffsetSouth>
+							<drawOffsetWest>(0.9,-1,-0.5)</drawOffsetWest>
 						</r0>
+						<r1>
+							<drawScale>0.9</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>1</stackRotation>
+							<stackBehaviour>Stack</stackBehaviour>
+							<stackOffsetFactor>1</stackOffsetFactor>
+		
+							<stackOffset>(0,0,0)</stackOffset>
+							<drawOffset>(0,0,0)</drawOffset>	
+							
+							<stackOffsetNorth>(0,-0.05,0.3)</stackOffsetNorth>
+							<stackOffsetEast>(0,-0.05,0.3)</stackOffsetEast>
+							<stackOffsetSouth>(0,-0.05,0.3)</stackOffsetSouth>
+							<stackOffsetWest>(0,-0.05,0.3)</stackOffsetWest>
+							
+							<drawOffsetNorth>(-1.3,-1,-0.4)</drawOffsetNorth>
+							<drawOffsetEast>(-1.3,-1,-0.4)</drawOffsetEast>
+							<drawOffsetSouth>(0.3,-1,-0.4)</drawOffsetSouth>
+							<drawOffsetWest>(0.3,-1,-0.4)</drawOffsetWest>
+						</r1>
 					</rows>
 				</c1>
 			</columns>
