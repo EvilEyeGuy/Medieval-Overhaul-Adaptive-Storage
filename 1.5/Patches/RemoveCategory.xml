@@ -14,7 +14,10 @@
 		defName="DankPyon_ShelfEmpty" or
 		defName="DankPyon_RackSword" or
 		defName="DankPyon_RackEmpty" or
-		defName="DankPyon_Storage_Cart_Empty"
+		defName="DankPyon_Storage_Cart_Empty" or
+		defName="DankPyon_SackClosed" or
+		defName="DankPyon_SackFlour" or
+		defName="DankPyon_Bricks1x1c"
 		]</xpath>
         <value>
             <designationCategory Inherit="false"/>
