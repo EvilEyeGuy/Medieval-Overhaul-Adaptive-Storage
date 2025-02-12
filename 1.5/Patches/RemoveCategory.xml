@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="PatchOperationAdd">
+    <!--Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[
 		defName="DankPyon_BarrelWoodLog" or
 		defName="DankPyon_TableMarket_Meats" or
@@ -17,10 +17,20 @@
 		defName="DankPyon_Storage_Cart_Empty" or
 		defName="DankPyon_SackClosed" or
 		defName="DankPyon_SackFlour" or
-		defName="DankPyon_Bricks1x1c"
+		defName="DankPyon_Bricks1x1c" or
+		@name="DankPyon_LumberStorageBase" or
+		@name="DankPyon_BrickStorageBase" or
+		defname="DankPyon_IronIngots1x1c" 
 		]</xpath>
         <value>
             <designationCategory Inherit="false"/>
+        </value>
+    </Operation-->
+	
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="DankPyon_RackMixed"]</xpath>
+        <value>
+			<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
         </value>
     </Operation>
 

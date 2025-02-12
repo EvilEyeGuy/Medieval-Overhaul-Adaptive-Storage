@@ -23,8 +23,4 @@
 		<li>DankPyon.Medieval.Overhaul</li>
 		<li>adaptive.storage.framework</li>
 	</loadAfter>
-	<incompatibleWith>
-		<li>dutchman.adaptive.mo</li>
-		<li>liuyu.adaptive.mo</li>
-	</incompatibleWith>
 </ModMetaData>

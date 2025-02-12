@@ -155,6 +155,7 @@
 
 	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_BarrelBaseASF" Abstract="True">
 		<description>A cylindrical barrel for general storage. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<graphicData>
 			<texPath>Storage/BarrelEmpty</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -179,6 +180,7 @@
 				<labelFormat>NoStuff</labelFormat>
 			</li>
 		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
 	
@@ -224,14 +226,16 @@
                     <graphicClass>Graphic_Single</graphicClass>
 					<drawSize>(2,2)</drawSize>
 					<drawRotated>false</drawRotated>
+						<drawOffset>(0,0,0)</drawOffset>
                 </graphicData>
 				<graphicDatas>
 					<li>
 						<texPath>Storage/BarrelEmptyLayer</texPath>
 						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>Transparent</shaderType>
 						<drawSize>(2,2)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,3,0)</drawOffset>
+						<drawOffset>(0,2,0)</drawOffset>
 					</li>
 				</graphicDatas>
             </li>
@@ -245,7 +249,7 @@
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackRotation>33</stackRotation>
 							
-							<stackOffset>(0.013,0.1,0.15)</stackOffset>
+							<stackOffset>(0.013,0.5,0.15)</stackOffset>
 							<drawOffset>(0,0,0.23)</drawOffset>
 							
 							<drawScale>0.9</drawScale>
@@ -307,7 +311,7 @@
 						<graphicClass>Graphic_Single</graphicClass>
 						<drawSize>(2,2)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,3,0)</drawOffset>
+						<drawOffset>(0,2,0)</drawOffset>
 					</li>
 				</graphicDatas>
             </li>
@@ -324,7 +328,7 @@
 							<stackOffsetFactor>0.7</stackOffsetFactor>
 		
 							<stackOffset>(0,-0.2,0.15)</stackOffset>
-							<drawOffset>(0,0,0.3)</drawOffset>							
+							<drawOffset>(0,1.5,0.33)</drawOffset>							
 						</r0>
 					</rows>
 				</c0>
@@ -381,7 +385,7 @@
 						<graphicClass>Graphic_Single</graphicClass>
 						<drawSize>(2,2)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,3,0)</drawOffset>
+						<drawOffset>(0,2,0)</drawOffset>
 					</li>
 				</graphicDatas>
             </li>
@@ -566,7 +570,7 @@
 	
 	<ThingDef ParentName="DankPyon_TableMarket" Name="DankPyon_TableMarketASF" Abstract="True">
 		<description>A table to display different goods, like herbal medicine, cheese, milk, meat and bread.</description>
-		<designationCategory>DankPyon_RusticStorage</designationCategory>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<uiIconScale>1.5</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
 		<size>(3,1)</size>
@@ -596,6 +600,7 @@
 				<labelFormat>NoStuff</labelFormat>
 			</li>
 		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_TableMarketASF">
@@ -746,7 +751,7 @@
 	
 	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_LargeShelfASF" Abstract="True">
 		<description>A large square platform designed to store things, like herbal medicine, cheese, milk, meat, bread, wine, flour, wheat and vegetables.</description>
-		<designationCategory>DankPyon_RusticStorage</designationCategory>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<uiIconScale>1.5</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
 		<graphicData>
@@ -771,6 +776,7 @@
 				<labelFormat>NoStuff</labelFormat>
 			</li>
 		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_LargeShelfASF">
@@ -958,7 +964,7 @@
 	
 	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_CrateASF" Abstract="True">
 		<description>A wooden box made up of planks designed to store resources in an efficient manner. Items stored inside will not affect room beauty and will never deteriorate, even if outside.</description>
-		<designationCategory>DankPyon_RusticStorage</designationCategory>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<uiIconScale>1.5</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
 		<graphicData>
@@ -984,6 +990,7 @@
 				<labelFormat>NoStuff</labelFormat>
 			</li>
 		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_CrateASF">
@@ -1135,7 +1142,7 @@
 	
 	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_Crate2x2ASF" Abstract="True">
 		<description>A wooden box made up of planks designed to store resources in an efficient manner. Items stored inside will not affect room beauty and will never deteriorate, even if outside.</description>
-		<designationCategory>DankPyon_RusticStorage</designationCategory>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<uiIconScale>1.5</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
 		<graphicData>
@@ -1159,6 +1166,7 @@
 				<labelFormat>NoStuff</labelFormat>
 			</li>
 		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_Crate2x2ASF">
@@ -1329,7 +1337,7 @@
 	
 	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_CupboardASF" Abstract="True">
 		<description>An open cupboard to store and display objects in an efficient manner</description>
-		<designationCategory>DankPyon_RusticStorage</designationCategory>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<uiIconScale>1.5</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
 		<graphicData>
@@ -1353,6 +1361,7 @@
 				<labelFormat>NoStuff</labelFormat>
 			</li>
 		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_CupboardASF">
@@ -1508,7 +1517,7 @@
 	
 	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_EmptyShelfBaseASF" Abstract="True">
 		<description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
-		<designationCategory>DankPyon_RusticStorage</designationCategory>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<uiIconScale>1.5</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
 		<graphicData>
@@ -1532,6 +1541,7 @@
 				<labelFormat>NoStuff</labelFormat>
 			</li>
 		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_EmptyShelfBaseASF">
@@ -1667,7 +1677,7 @@
 	
 	
 	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_EmptyRackBaseASF" Abstract="True">
-		<designationCategory>DankPyon_RusticStorage</designationCategory>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<uiIconScale>1.5</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
 		<uiIconPath Inherit="False">Storage/RackEmpty_north</uiIconPath>
@@ -1687,6 +1697,7 @@
 			<li>Woody</li>
 		</stuffCategories>
 		<costStuffCount>20</costStuffCount>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_EmptyRackBaseASF">
@@ -2429,13 +2440,19 @@
 		</itemGraphics>
 	</AdaptiveStorage.GraphicsDef>
 
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_RackMixedASF</defName>
+		<targetDef>DankPyon_RackMixed</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+
 
 	<!-- ════════════════════ Empty Shelf ════════════════════ -->
 	
 	
 	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_EmptyCartBaseASF" Abstract="True">
 		<description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
-		<designationCategory>DankPyon_RusticStorage</designationCategory>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<uiIconScale>1.5</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
 		<graphicData>
@@ -2465,6 +2482,7 @@
 		<building>
 			<maxItemsInCell Inherit="False">3</maxItemsInCell>
 		</building>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_EmptyCartBaseASF">
@@ -2638,6 +2656,7 @@
 
 	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_SackBaseASF" Abstract="True">
 		<description>A robust fabric bag. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<graphicData>
 			<texPath>Storage/SackEmpty</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -2661,6 +2680,7 @@
 				<labelFormat>NoStuff</labelFormat>
 			</li>
 		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_SackBaseASF">
@@ -2777,43 +2797,47 @@
 	</AdaptiveStorage.GraphicsDef>
 
 
-	<!-- ════════════════════ Bricks (1x1) ════════════════════ -->
+	<!-- ════════════════════ Bricks ════════════════════ -->
 
 
-	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_BrickBase2x2ASF" Abstract="True">
+	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_Bricks1x1BaseASF" Abstract="True">
 		<description>Bricks that are stacked in an efficient manner to save more space.</description>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<graphicData>
-			<texPath>Storage/Bricks2x2</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
 		<uiIconScale>1</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
-		<size>(2,2)</size>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<Mass>16</Mass>
-			<WorkToBuild>1000</WorkToBuild>
-			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
-		</statBases>
 		<stuffCategories Inherit="false">
 			<li>Stony</li>
 		</stuffCategories>
-		<costStuffCount>40</costStuffCount>
 		<modExtensions>
 			<li Class="AdaptiveStorage.Extension">
 				<labelFormat>NoStuff</labelFormat>
 			</li>
 		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
 	</ThingDef>
 	
-	<ThingDef ParentName="DankPyon_BrickBase2x2ASF">
-		<defName>DankPyon_Brick2x2Empty</defName>
-		<label>Bricks</label>
-		<uiIconPath>Storage/Bricks2x2</uiIconPath>
-		<uiIconScale>1.5</uiIconScale>
+	<ThingDef ParentName="DankPyon_Bricks1x1BaseASF">
+		<defName>DankPyon_Bricks1x1Empty</defName>
+		<label>Bricks (1x1)</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Storage/Bricks1x1</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Storage/Bricks1x1</uiIconPath>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>4</Mass>
+			<WorkToBuild>250</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2.5</StyleDominance>
+		</statBases>
+		<costStuffCount>10</costStuffCount>
 		<building>
+			<maxItemsInCell>4</maxItemsInCell>
 			<fixedStorageSettings Inherit="false">
 				<filter>
 					<disallowNotEverStorable>true</disallowNotEverStorable>	
@@ -2834,8 +2858,140 @@
 	</ThingDef>
 
 	<AdaptiveStorage.GraphicsDef>
-		<defName>DankPyon_Brick2x2EmptyASF</defName>
-		<targetDef>DankPyon_Brick2x2Empty</targetDef>
+		<defName>DankPyon_Bricks1x1EmptyASF</defName>
+		<targetDef>DankPyon_Bricks1x1Empty</targetDef>
+		<graphics>
+            <li>
+				<minimumStackCount>0</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Brick1x1Empty</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(1,1)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Bricks1x1</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+		<showContainedItems>false</showContainedItems>
+		<useDominantContentColor>true</useDominantContentColor>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<ThingDef ParentName="DankPyon_Bricks1x1BaseASF">
+		<defName>DankPyon_Bricks1x2Empty</defName>
+		<label>Bricks (1x2)</label>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Storage/Bricks1x2</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconPath>Storage/Bricks1x2_north</uiIconPath>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>500</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<costStuffCount>20</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>	
+					<categories Inherit="false">
+						<li>StoneBlocks</li>
+					</categories>				
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<categories Inherit="false">
+						<li>StoneBlocks</li>
+					</categories>	
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Bricks1x2EmptyASF</defName>
+		<targetDef>DankPyon_Bricks1x2Empty</targetDef>
+		<graphics>
+            <li>
+				<minimumStackCount>0</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Brick2x1Empty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,1)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Bricks1x2</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+		<showContainedItems>false</showContainedItems>
+		<useDominantContentColor>true</useDominantContentColor>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<ThingDef ParentName="DankPyon_Bricks1x1BaseASF">
+		<defName>DankPyon_Bricks2x2Empty</defName>
+		<label>Bricks (2x2)</label>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Storage/Bricks2x2</texPath>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<uiIconPath>Storage/Bricks2x2</uiIconPath>
+		<size>(2,2)</size>
+		<uiIconScale>1.5</uiIconScale>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>16</Mass>
+			<WorkToBuild>1000</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<costStuffCount>40</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>	
+					<categories Inherit="false">
+						<li>StoneBlocks</li>
+					</categories>				
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<categories Inherit="false">
+						<li>StoneBlocks</li>
+					</categories>	
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Bricks2x2EmptyASF</defName>
+		<targetDef>DankPyon_Bricks2x2Empty</targetDef>
 		<graphics>
             <li>
 				<minimumStackCount>0</minimumStackCount>
@@ -2849,33 +3005,6 @@
             <li>
 				<minimumStackCount>1</minimumStackCount>
                 <graphicData>
-					<texPath>Storage/Bricks2x2a</texPath>
-					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(4,4)</drawSize>
-					<drawRotated>false</drawRotated>
-                </graphicData>
-            </li>
-            <li>
-				<minimumStackCount>4</minimumStackCount>
-                <graphicData>
-					<texPath>Storage/Bricks2x2b</texPath>
-					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(4,4)</drawSize>
-					<drawRotated>false</drawRotated>
-                </graphicData>
-            </li>
-            <li>
-				<minimumStackCount>7</minimumStackCount>
-                <graphicData>
-					<texPath>Storage/Bricks2x2c</texPath>
-					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>(4,4)</drawSize>
-					<drawRotated>false</drawRotated>
-                </graphicData>
-            </li>
-            <li>
-				<minimumStackCount>10</minimumStackCount>
-                <graphicData>
 					<texPath>Storage/Bricks2x2</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 					<drawSize>(4,4)</drawSize>
@@ -2888,19 +3017,37 @@
 	</AdaptiveStorage.GraphicsDef>
 
 
-	<!-- ════════════════════ Bricks (2x2) ════════════════════ -->
+	<!-- ════════════════════ Logs ════════════════════ -->
 
 
-	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_BrickBaseASF" Abstract="True">
-		<description>Bricks that are stacked in an efficient manner to save more space.</description>
+	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_Log1x1BaseASF" Abstract="True">
+		<description>Logs that are stacked in an efficient manner to save more space.</description>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<graphicData>
-			<texPath>Storage/Bricks1x1</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2,2)</drawSize>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<drawRotated>false</drawRotated>
 		</graphicData>
-		<uiIconScale>1</uiIconScale>
 		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories Inherit="false">
+			<li>DankPyon_RawWood</li>
+		</stuffCategories>
+		<modExtensions>
+			<li Class="AdaptiveStorage.Extension">
+				<labelFormat>NoStuff</labelFormat>
+			</li>
+		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
+	</ThingDef>
+	
+	<ThingDef ParentName="DankPyon_Log1x1BaseASF">
+		<defName>DankPyon_Log1x1Empty</defName>
+		<label>Logs (1x1)</label>
+		<graphicData>
+			<texPath>Storage/RawWood1x1</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Storage/RawWood1x1_north</uiIconPath>
 		<size>(1,1)</size>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
@@ -2908,27 +3055,14 @@
 			<WorkToBuild>250</WorkToBuild>
 			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2.5</StyleDominance>
 		</statBases>
-		<stuffCategories Inherit="false">
-			<li>Stony</li>
-		</stuffCategories>
 		<costStuffCount>10</costStuffCount>
-		<modExtensions>
-			<li Class="AdaptiveStorage.Extension">
-				<labelFormat>NoStuff</labelFormat>
-			</li>
-		</modExtensions>
-	</ThingDef>
-	
-	<ThingDef ParentName="DankPyon_BrickBaseASF">
-		<defName>DankPyon_BrickEmpty</defName>
-		<label>Bricks</label>
-		<uiIconPath>Storage/Bricks1x1</uiIconPath>
 		<building>
+			<maxItemsInCell>4</maxItemsInCell>
 			<fixedStorageSettings Inherit="false">
 				<filter>
 					<disallowNotEverStorable>true</disallowNotEverStorable>	
 					<categories Inherit="false">
-						<li>StoneBlocks</li>
+						<li>DankPyon_RawWood</li>
 					</categories>				
 				</filter>
 			</fixedStorageSettings>
@@ -2936,7 +3070,7 @@
 			<priority>Preferred</priority>
 				<filter>
 					<categories Inherit="false">
-						<li>StoneBlocks</li>
+						<li>DankPyon_RawWood</li>
 					</categories>	
 				</filter>
 			</defaultStorageSettings>
@@ -2944,13 +3078,13 @@
 	</ThingDef>
 
 	<AdaptiveStorage.GraphicsDef>
-		<defName>DankPyon_BrickEmptyASF</defName>
-		<targetDef>DankPyon_BrickEmpty</targetDef>
+		<defName>DankPyon_Log1x1EmptyASF</defName>
+		<targetDef>DankPyon_Log1x1Empty</targetDef>
 		<graphics>
             <li>
 				<minimumStackCount>0</minimumStackCount>
                 <graphicData>
-					<texPath>Things/Building/Production/CraftingSpot</texPath>
+					<texPath>Storage/Brick1x1Empty</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 					<drawSize>(1,1)</drawSize>
 					<drawRotated>false</drawRotated>
@@ -2959,9 +3093,606 @@
             <li>
 				<minimumStackCount>1</minimumStackCount>
                 <graphicData>
-					<texPath>Storage/Bricks1x1</texPath>
+					<texPath>Storage/RawWood1x1</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+		<showContainedItems>false</showContainedItems>
+		<useDominantContentColor>true</useDominantContentColor>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<ThingDef ParentName="DankPyon_Log1x1BaseASF">
+		<defName>DankPyon_Log1x2Empty</defName>
+		<label>Logs (1x2)</label>
+		<graphicData>
+			<texPath>Storage/RawWood1x2</texPath>
+			<drawSize>(4,3)</drawSize>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Storage/RawWood1x2_north</uiIconPath>
+		<size>(2,1)</size>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>500</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<stuffCategories Inherit="false">
+			<li>DankPyon_RawWood</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>	
+					<categories Inherit="false">
+						<li>DankPyon_RawWood</li>
+					</categories>				
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<categories Inherit="false">
+						<li>DankPyon_RawWood</li>
+					</categories>	
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Log1x2EmptyASF</defName>
+		<targetDef>DankPyon_Log1x2Empty</targetDef>
+		<graphics>
+            <li>
+				<minimumStackCount>0</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Brick2x1Empty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,1)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/RawWood1x2</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+		<showContainedItems>false</showContainedItems>
+		<useDominantContentColor>true</useDominantContentColor>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<ThingDef ParentName="DankPyon_Log1x1BaseASF">
+		<defName>DankPyon_Log2x2Empty</defName>
+		<label>Logs (2x2)</label>
+		<graphicData>
+			<texPath>Storage/RawWood2x2</texPath>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<uiIconPath>Storage/RawWood1x2_north</uiIconPath>
+		<size>(2,2)</size>
+		<uiIconScale>1.5</uiIconScale>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>16</Mass>
+			<WorkToBuild>1000</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<stuffCategories Inherit="false">
+			<li>DankPyon_RawWood</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>	
+					<categories Inherit="false">
+						<li>DankPyon_RawWood</li>
+					</categories>				
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<categories Inherit="false">
+						<li>DankPyon_RawWood</li>
+					</categories>	
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Log2x2EmptyASF</defName>
+		<targetDef>DankPyon_Log2x2Empty</targetDef>
+		<graphics>
+            <li>
+				<minimumStackCount>0</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Brick2x2Empty</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/RawWood2x2</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+		<showContainedItems>false</showContainedItems>
+		<useDominantContentColor>true</useDominantContentColor>
+	</AdaptiveStorage.GraphicsDef>
+
+
+	<!-- ════════════════════ Timber ════════════════════ -->
+
+
+	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_Timber1x1BaseASF" Abstract="True">
+		<description>Timber that are stacked in an efficient manner to save more space.</description>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories Inherit="false">
+			<li>Woody</li>
+		</stuffCategories>
+		<modExtensions>
+			<li Class="AdaptiveStorage.Extension">
+				<labelFormat>NoStuff</labelFormat>
+			</li>
+		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
+	</ThingDef>
+	
+	<ThingDef ParentName="DankPyon_Timber1x1BaseASF">
+		<defName>DankPyon_Timber1x1Empty</defName>
+		<label>Logs (1x1)</label>
+		<graphicData>
+			<texPath>Storage/Timber1x1</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Storage/Timber1x1_north</uiIconPath>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>4</Mass>
+			<WorkToBuild>250</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2.5</StyleDominance>
+		</statBases>
+		<costStuffCount>10</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>	
+					<categories Inherit="false">
+						<li>DankPyon_Wood</li>
+					</categories>				
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<categories Inherit="false">
+						<li>DankPyon_Wood</li>
+					</categories>	
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Timber1x1EmptyASF</defName>
+		<targetDef>DankPyon_Timber1x1Empty</targetDef>
+		<graphics>
+            <li>
+				<minimumStackCount>0</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Brick1x1Empty</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(1,1)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Timber1x1</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+		<showContainedItems>false</showContainedItems>
+		<useDominantContentColor>true</useDominantContentColor>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<ThingDef ParentName="DankPyon_Timber1x1BaseASF">
+		<defName>DankPyon_Timber1x2Empty</defName>
+		<label>Timber (1x2)</label>
+		<graphicData>
+			<texPath>Storage/Timber1x2</texPath>
+			<drawSize>(4,3)</drawSize>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Storage/Timber1x2_north</uiIconPath>
+		<size>(2,1)</size>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>500</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<costStuffCount>20</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>	
+					<categories Inherit="false">
+						<li>DankPyon_Wood</li>
+					</categories>				
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<categories Inherit="false">
+						<li>DankPyon_Wood</li>
+					</categories>	
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Timber1x2EmptyASF</defName>
+		<targetDef>DankPyon_Timber1x2Empty</targetDef>
+		<graphics>
+            <li>
+				<minimumStackCount>0</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Brick2x1Empty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,1)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Timber1x2</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+		<showContainedItems>false</showContainedItems>
+		<useDominantContentColor>true</useDominantContentColor>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<ThingDef ParentName="DankPyon_Timber1x1BaseASF">
+		<defName>DankPyon_Timber2x2Empty</defName>
+		<label>Timber (2x2)</label>
+		<graphicData>
+			<texPath>Storage/Timber2x2</texPath>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<uiIconPath>Storage/Timber2x2_north</uiIconPath>
+		<size>(2,2)</size>
+		<uiIconScale>1.5</uiIconScale>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>16</Mass>
+			<WorkToBuild>1000</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<costStuffCount>40</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>	
+					<categories Inherit="false">
+						<li>DankPyon_Wood</li>
+					</categories>				
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<categories Inherit="false">
+						<li>DankPyon_Wood</li>
+					</categories>	
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Timber2x2EmptyASF</defName>
+		<targetDef>DankPyon_Timber2x2Empty</targetDef>
+		<graphics>
+            <li>
+				<minimumStackCount>0</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Brick2x2Empty</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Timber2x2</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+		<showContainedItems>false</showContainedItems>
+		<useDominantContentColor>true</useDominantContentColor>
+	</AdaptiveStorage.GraphicsDef>
+
+
+	<!-- ════════════════════ Ingots ════════════════════ -->
+
+
+	<ThingDef ParentName="DankPyon_StorageBase" Name="DankPyon_Ingot1x1BaseASF" Abstract="True">
+		<description>Ingots stacked in an efficient manner to save more space.</description>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories Inherit="false">
+			<li>Metallic</li>
+		</stuffCategories>
+		<modExtensions>
+			<li Class="AdaptiveStorage.Extension">
+				<labelFormat>NoStuff</labelFormat>
+			</li>
+		</modExtensions>
+		<researchPrerequisites Inherit="false"/>
+		<drawGUIOverlay>True</drawGUIOverlay>
+	</ThingDef>
+	
+	<ThingDef ParentName="DankPyon_Ingot1x1BaseASF">
+		<defName>DankPyon_Ingot1x1Empty</defName>
+		<label>Ingots (1x1)</label>
+		<graphicData>
+			<texPath>Storage/IngotStack1x1</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Storage/IngotStack1x1_south</uiIconPath>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>4</Mass>
+			<WorkToBuild>250</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2.5</StyleDominance>
+		</statBases>
+		<costStuffCount>10</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>	
+					<thingDefs>
+						<li>DankPyon_IronIngot</li>
+						<li>Steel</li>
+						<li>Plasteel</li>
+						<li>Gold</li>
+						<li>Silver</li>
+					</thingDefs>			
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_IronIngot</li>
+						<li>Steel</li>
+						<li>Plasteel</li>
+						<li>Gold</li>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Ingot1x1EmptyASF</defName>
+		<targetDef>DankPyon_Ingot1x1Empty</targetDef>
+		<graphics>
+            <li>
+				<minimumStackCount>0</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Brick1x1Empty</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(1,1)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/IngotStack1x1</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+		<showContainedItems>false</showContainedItems>
+		<useDominantContentColor>true</useDominantContentColor>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<ThingDef ParentName="DankPyon_Ingot1x1BaseASF">
+		<defName>DankPyon_Ingot1x2Empty</defName>
+		<label>Ingots (1x2)</label>
+		<graphicData>
+			<texPath>Storage/IngotStack1x2</texPath>
+			<drawSize>(4,3)</drawSize>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Storage/IngotStack1x2_south</uiIconPath>
+		<size>(2,1)</size>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>500</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<costStuffCount>20</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>	
+					<thingDefs>
+						<li>DankPyon_IronIngot</li>
+						<li>Steel</li>
+						<li>Plasteel</li>
+						<li>Gold</li>
+						<li>Silver</li>
+					</thingDefs>			
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_IronIngot</li>
+						<li>Steel</li>
+						<li>Plasteel</li>
+						<li>Gold</li>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Ingot1x2EmptyASF</defName>
+		<targetDef>DankPyon_Ingot1x2Empty</targetDef>
+		<graphics>
+            <li>
+				<minimumStackCount>0</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Brick2x1Empty</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,1)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/IngotStack1x2</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+        </graphics>
+		<showContainedItems>false</showContainedItems>
+		<useDominantContentColor>true</useDominantContentColor>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<ThingDef ParentName="DankPyon_Ingot1x1BaseASF">
+		<defName>DankPyon_Ingot2x2Empty</defName>
+		<label>Ingots (2x2)</label>
+		<graphicData>
+			<texPath>Storage/IngotStack2x2</texPath>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<uiIconPath>Storage/IngotStack2x2_south</uiIconPath>
+		<size>(2,2)</size>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Mass>16</Mass>
+			<WorkToBuild>1000</WorkToBuild>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<costStuffCount>40</costStuffCount>
+		<building>
+			<maxItemsInCell>4</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>	
+					<thingDefs>
+						<li>DankPyon_IronIngot</li>
+						<li>Steel</li>
+						<li>Plasteel</li>
+						<li>Gold</li>
+						<li>Silver</li>
+					</thingDefs>			
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_IronIngot</li>
+						<li>Steel</li>
+						<li>Plasteel</li>
+						<li>Gold</li>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Ingot2x2EmptyASF</defName>
+		<targetDef>DankPyon_Ingot2x2Empty</targetDef>
+		<graphics>
+            <li>
+				<minimumStackCount>0</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/Brick2x2Empty</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Storage/IngotStack2x2</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
 					<drawRotated>false</drawRotated>
                 </graphicData>
             </li>
@@ -3009,8 +3740,66 @@
 		<targetDef>DankPyon_RusticBarrelBigGrape</targetDef>
 		<showContainedItems>false</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
+	
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_Bale1x2cASF</defName>
+		<targetDef>DankPyon_Bale1x2c</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_StrawBale1x2cASF</defName>
+		<targetDef>DankPyon_StrawBale1x2c</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_FlaxBale1x2cASF</defName>
+		<targetDef>DankPyon_FlaxBale1x2c</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_HayBale2x2cASF</defName>
+		<targetDef>DankPyon_HayBale2x2c</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_StrawBale2x2cASF</defName>
+		<targetDef>DankPyon_StrawBale2x2c</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_FlaxBale2x2cASF</defName>
+		<targetDef>DankPyon_FlaxBale2x2c</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
 
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_HayPile1x2cASF</defName>
+		<targetDef>DankPyon_HayPile1x2c</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
 
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_StrawPile1x2cASF</defName>
+		<targetDef>DankPyon_StrawPile1x2c</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_FlaxPile1x2cASF</defName>
+		<targetDef>DankPyon_FlaxPile1x2c</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_RusticBarrelStackASF</defName>
+		<targetDef>DankPyon_RusticBarrelStack</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
 </Defs>
 <!--
 
