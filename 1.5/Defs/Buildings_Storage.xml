@@ -325,10 +325,10 @@
 							<drawScale>0.9</drawScale>
 							<rotation>140</rotation>
 							<stackBehaviour>Circle</stackBehaviour>
-							<stackOffsetFactor>0.7</stackOffsetFactor>
+							<stackOffsetFactor>0.444</stackOffsetFactor>
 		
 							<stackOffset>(0,-0.2,0.15)</stackOffset>
-							<drawOffset>(0,1.5,0.33)</drawOffset>							
+							<drawOffset>(0.065,0,0.35)</drawOffset>							
 						</r0>
 					</rows>
 				</c0>
@@ -812,6 +812,7 @@
 						<li>DankPyon_Cheese</li>
 						<li>DankPyon_Milk</li>
 						<li>PlantFoodRaw</li>
+						<li>FoodMeals</li>
 					</categories>
 				</filter>
 			</fixedStorageSettings>
@@ -840,6 +841,7 @@
 						<li>DankPyon_Cheese</li>
 						<li>DankPyon_Milk</li>
 						<li>PlantFoodRaw</li>
+						<li>FoodMeals</li>
 					</categories>
 				</filter>
 			</defaultStorageSettings>
@@ -1007,12 +1009,13 @@
 					<disallowNotEverStorable>true</disallowNotEverStorable>
 					<categories>
 						<li>Root</li>
+						<li>Leathers</li>
 					</categories>
 					<disallowedCategories>
 						<li>Chunks</li>
 						<li>Plants</li>
 						<li>Buildings</li>
-						<li>Weapons</li>
+						<!-- <li>Weapons</li> -->
 					</disallowedCategories>
 					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
 						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
@@ -1026,12 +1029,11 @@
 				<priority>Normal</priority>
 				<filter>
 					<categories>
-						<li>Foods</li>
 						<li>Manufactured</li>
 						<li>ResourcesRaw</li>
 						<li>Items</li>
 						<li>Apparel</li>
-						<li>BodyParts</li>
+						<li>Leathers</li>
 					</categories>
 				</filter>
 			</defaultStorageSettings>
@@ -1190,7 +1192,7 @@
 						<li>Chunks</li>
 						<li>Plants</li>
 						<li>Buildings</li>
-						<li>Weapons</li>
+						<!-- <li>Weapons</li> -->
 					</disallowedCategories>
 					<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
 						<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
@@ -2817,6 +2819,7 @@
 			</li>
 		</modExtensions>
 		<drawGUIOverlay>True</drawGUIOverlay>
+		<researchPrerequisites Inherit="false"/>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_Bricks1x1BaseASF">
@@ -3037,6 +3040,7 @@
 			</li>
 		</modExtensions>
 		<drawGUIOverlay>True</drawGUIOverlay>
+		<researchPrerequisites Inherit="false"/>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_Log1x1BaseASF">
@@ -3261,6 +3265,7 @@
 			</li>
 		</modExtensions>
 		<drawGUIOverlay>True</drawGUIOverlay>
+		<researchPrerequisites Inherit="false"/>
 	</ThingDef>
 	
 	<ThingDef ParentName="DankPyon_Timber1x1BaseASF">
@@ -3702,8 +3707,249 @@
 	</AdaptiveStorage.GraphicsDef>
 
 
+	<!-- ════════════════════ Apparel Shelf ════════════════════ -->
+	
+
+	<ThingDef ParentName="DankPyon_StorageBase" Name="RusticEmptyShelfBaseASF" Abstract="True">
+		<description>A shelf primarily used for storing clothing.</description>
+		<label>Shelf</label>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<castEdgeShadows>true</castEdgeShadows>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<modExtensions>
+			<li Class="AdaptiveStorage.Extension">
+				<labelFormat>NoStuff</labelFormat>
+			</li>
+		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="RusticEmptyShelfBaseASF">
+		<defName>DankPyon_RusticEmptyShelf1x1Storage</defName>
+		<uiIconPath>Furniture/RusticEmptyShelf1x1_north</uiIconPath>
+		<graphicData>
+			<texPath>Furniture/RusticEmptyShelf1x1</texPath>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<WorkToBuild>2500</WorkToBuild>
+			<Mass>40</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">8</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<building>
+			<maxItemsInCell Inherit="False">2</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Root</li>
+					</categories>		
+					<specialFiltersToDisallow>
+						<li>AllowLargeCorpses</li>
+					</specialFiltersToDisallow>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+   <AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_RusticEmptyShelf1x1StorageASF</defName>
+		<targetDef>DankPyon_RusticEmptyShelf1x1Storage</targetDef>
+        <graphics>
+            <li>
+                <graphicData>
+					<texPath>Furniture/RusticEmptyShelf1x1</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3,3)</drawSize>
+                </graphicData>
+				<graphicDatas>
+					<li>
+						<texPath>Storage/RusticEmptyShelf1x1Layer1</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3,3)</drawSize>
+						<drawOffset>(0,1.5,0)</drawOffset>
+					</li>
+					<li>
+						<texPath>Storage/RusticEmptyShelf1x1Layer2</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3,3)</drawSize>
+						<drawOffset>(0,3,0)</drawOffset>
+					</li>
+				</graphicDatas>
+            </li>
+        </graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns>
+				<c0>
+					<rows>
+						<r0>
+							<drawScale>0.9</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
+							<stackBehaviour>Stack</stackBehaviour>
+							<stackOffsetFactor>1</stackOffsetFactor>
+		
+							<stackOffset>(0.013,0.7,0.4)</stackOffset>
+
+							<drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
+							<drawOffsetEast>(0,100,0)</drawOffsetEast>
+							<drawOffsetSouth>(0,100,0)</drawOffsetSouth>
+							<drawOffsetWest>(0,100,0)</drawOffsetWest>
+
+						</r0>
+					</rows>
+				</c0>
+				<c1>
+					<rows>
+						<r0>
+						</r0>
+					</rows>
+				</c1>
+			</columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+	
+	
+	<ThingDef ParentName="RusticEmptyShelfBaseASF">
+		<defName>DankPyon_RusticEmptyShelf1x2Storage</defName>
+		<graphicData>
+			<texPath>Furniture/RusticEmptyShelf1x2</texPath>
+			<drawSize>(3.5,3)</drawSize>
+		</graphicData>
+		<uiIconPath>Furniture/RusticEmptyShelf1x2_north</uiIconPath>
+		<size>(2,1)</size>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Mass>60</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">8</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>75</costStuffCount>
+		<building>
+			<maxItemsInCell Inherit="False">2</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>Root</li>
+					</categories>		
+					<specialFiltersToDisallow>
+						<li>AllowLargeCorpses</li>
+					</specialFiltersToDisallow>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+			<priority>Preferred</priority>
+				<filter>
+					<categories>
+						<li>Apparel</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+	</ThingDef>
+
+   <AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_RusticEmptyShelf1x2StorageASF</defName>
+		<targetDef>DankPyon_RusticEmptyShelf1x2Storage</targetDef>
+        <graphics>
+            <li>
+                <graphicData>
+					<texPath>Furniture/RusticEmptyShelf1x2</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(3.5,3)</drawSize>
+                </graphicData>
+				<graphicDatas>
+					<li>
+						<texPath>Storage/RusticEmptyShelf1x2Layer1</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3.5,3)</drawSize>
+						<drawOffset>(0,1.5,0)</drawOffset>
+					</li>
+					<li>
+						<texPath>Storage/RusticEmptyShelf1x2Layer2</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3.5,3)</drawSize>
+						<drawOffset>(0,3,0)</drawOffset>
+					</li>
+				</graphicDatas>
+            </li>
+        </graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns>
+				<c0>
+					<rows>
+						<r0>
+							<drawScale>0.95</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
+							<stackBehaviour>Stack</stackBehaviour>
+							<stackOffsetFactor>1</stackOffsetFactor>
+		
+							<stackOffset>(0.013,0.7,0.4)</stackOffset>
+
+							<drawOffsetNorth>(0.15,0,0.15)</drawOffsetNorth>
+							<drawOffsetEast>(0,100,0)</drawOffsetEast>
+							<drawOffsetSouth>(0,100,0)</drawOffsetSouth>
+							<drawOffsetWest>(0,100,0)</drawOffsetWest>
+						</r0>
+					</rows>
+				</c0>
+				<c1>
+					<rows>
+						<r0>
+							<drawScale>0.95</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
+							<stackBehaviour>Stack</stackBehaviour>
+							<stackOffsetFactor>1</stackOffsetFactor>
+		
+							<stackOffset>(0.013,0.7,0.4)</stackOffset>
+
+							<drawOffsetNorth>(-0.15,0,0.15)</drawOffsetNorth>
+							<drawOffsetEast>(0,100,0)</drawOffsetEast>
+							<drawOffsetSouth>(0,100,0)</drawOffsetSouth>
+							<drawOffsetWest>(0,100,0)</drawOffsetWest>
+						</r0>
+					</rows>
+				</c1>
+			</columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+	
+
+
 	<!-- ════════════════════ Diverses ════════════════════ -->
 	
+
 
 	<AdaptiveStorage.GraphicsDef>
 		<defName>DankPyon_BundledSack1x1cASF</defName>
@@ -3798,6 +4044,12 @@
 	<AdaptiveStorage.GraphicsDef>
 		<defName>DankPyon_RusticBarrelStackASF</defName>
 		<targetDef>DankPyon_RusticBarrelStack</targetDef>
+		<showContainedItems>false</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>DankPyon_RusticChestASF</defName>
+		<targetDef>DankPyon_RusticChest</targetDef>
 		<showContainedItems>false</showContainedItems>
 	</AdaptiveStorage.GraphicsDef>
 </Defs>
