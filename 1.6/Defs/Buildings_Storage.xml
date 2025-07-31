@@ -3176,8 +3176,35 @@
 					<drawRotated>false</drawRotated>
                 </graphicData>
             </li>
-            <li>
+			<li>
 				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood1x1_a</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>2</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood1x1_b</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>3</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood1x1_c</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>4</minimumStackCount>
                 <graphicData>
 					<texPath>Things/Building/Storage/RawWood1x1</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
@@ -3244,8 +3271,62 @@
 					<drawRotated>false</drawRotated>
                 </graphicData>
             </li>
-            <li>
+			<li>
 				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood1x2_a</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>2</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood1x2_b</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>3</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood1x2_c</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>4</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood1x2_d</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>5</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood1x2_e</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>6</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood1x2_f</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>7</minimumStackCount>
                 <graphicData>
 					<texPath>Things/Building/Storage/RawWood1x2</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
@@ -3312,8 +3393,62 @@
 					<drawRotated>false</drawRotated>
                 </graphicData>
             </li>
-            <li>
+			<li>
 				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood2x2_a</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>3</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood2x2_b</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>5</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood2x2_c</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>7</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood2x2_d</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>9</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood2x2_e</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>11</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/RawWood2x2_f</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>13</minimumStackCount>
                 <graphicData>
 					<texPath>Things/Building/Storage/RawWood2x2</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
@@ -3352,7 +3487,7 @@
 	
 	<ThingDef ParentName="DankPyon_Timber1x1BaseASF">
 		<defName>DankPyon_Timber1x1Empty</defName>
-		<label>Logs (1x1)</label>
+		<label>Timber (1x1)</label>
 		<graphicData>
 			<texPath>Things/Building/Storage/Timber1x1</texPath>
 			<drawSize>(2,2)</drawSize>
@@ -3403,6 +3538,24 @@
             </li>
             <li>
 				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber1x1_a</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>2</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber1x1_b</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>3</minimumStackCount>
                 <graphicData>
 					<texPath>Things/Building/Storage/Timber1x1</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
@@ -3466,8 +3619,44 @@
 					<drawRotated>false</drawRotated>
                 </graphicData>
             </li>
-            <li>
+			<li>
 				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber1x2_a</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>2</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber1x2_b</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>3</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber1x2_c</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>5</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber1x2_d</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,3)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>7</minimumStackCount>
                 <graphicData>
 					<texPath>Things/Building/Storage/Timber1x2</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
@@ -3531,8 +3720,80 @@
 					<drawRotated>false</drawRotated>
                 </graphicData>
             </li>
-            <li>
+			<li>
 				<minimumStackCount>1</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber2x2_a</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>2</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber2x2_b</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>3</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber2x2_c</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>4</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber2x2_d</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>5</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber2x2_e</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>7</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber2x2_f</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>9</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber2x2_g</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+			<li>
+				<minimumStackCount>12</minimumStackCount>
+                <graphicData>
+					<texPath>Things/Building/Storage/Timber2x2_h</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(4,4)</drawSize>
+					<drawRotated>false</drawRotated>
+                </graphicData>
+            </li>
+            <li>
+				<minimumStackCount>15</minimumStackCount>
                 <graphicData>
 					<texPath>Things/Building/Storage/Timber2x2</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
@@ -3544,7 +3805,6 @@
 		<showContainedItems>false</showContainedItems>
 		<useDominantContentColor>true</useDominantContentColor>
 	</AdaptiveStorage.GraphicsDef>
-
 
 	<!-- ════════════════════ Ingots ════════════════════ -->
 
