@@ -1838,6 +1838,9 @@
 						<li>DankPyon_MeleeWeapon_NamedTwoHandedHammer1c</li>
 						<li>DankPyon_MeleeWeapon_TwoHandedHammer</li>
 						<li>DankPyon_MeleeWeapon_TwoHandedMallet</li>
+						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_Longsword</li>
+						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_ExecutionerGreatsword</li>
+						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_ExecutionerGreatsword</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_AmethystLongsword</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_AmethystBattleAxe</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_AmethystWarHammer</li>
