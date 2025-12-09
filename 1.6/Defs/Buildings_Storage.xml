@@ -1727,6 +1727,12 @@
 						<li>DankPyon_MeleeWeapon_Pickaxe</li>
 						<li>DankPyon_MeleeWeapon_Warhammer</li>
 						<li>DankPyon_MeleeWeapon_WingedMace</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSword</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_Zeushammer</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSword</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSwordBladelink</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_ZeusHammerBladelink</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSwordBladelink</li>
 						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_Sword</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_AmethystDagger</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_MorningStar_Doyle</li>	
@@ -1744,13 +1750,10 @@
 						<li MayRequire="Van.DATools">DA_MeleeWeapon_Hacksaw</li>
 						<li MayRequire="Van.DATools">DA_MeleeWeapon_Pickaxe</li>
 						<li MayRequire="Van.DATools">DA_MeleeWeapon_Cleaver</li>
-						<li MayRequire="Van.DATools">DA_MeleeWeapon_Broom</li>
 						<li MayRequire="Van.DATools">DA_MeleeWeapon_GuardBaton</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_HeavyMace</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Shortsword</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Flail</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderMace</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderShortsword</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -1775,6 +1778,12 @@
 						<li>DankPyon_MeleeWeapon_Pickaxe</li>
 						<li>DankPyon_MeleeWeapon_Warhammer</li>
 						<li>DankPyon_MeleeWeapon_WingedMace</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSword</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_Zeushammer</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSword</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSwordBladelink</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_ZeusHammerBladelink</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSwordBladelink</li>
 						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_Sword</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_AmethystDagger</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_MorningStar_Doyle</li>
@@ -1792,13 +1801,10 @@
 						<li MayRequire="Van.DATools">DA_MeleeWeapon_Hacksaw</li>
 						<li MayRequire="Van.DATools">DA_MeleeWeapon_Pickaxe</li>
 						<li MayRequire="Van.DATools">DA_MeleeWeapon_Cleaver</li>
-						<li MayRequire="Van.DATools">DA_MeleeWeapon_Broom</li>
 						<li MayRequire="Van.DATools">DA_MeleeWeapon_GuardBaton</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_HeavyMace</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Shortsword</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Flail</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderMace</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderShortsword</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
@@ -1832,12 +1838,6 @@
 						<li>DankPyon_MeleeWeapon_NamedTwoHandedHammer1c</li>
 						<li>DankPyon_MeleeWeapon_TwoHandedHammer</li>
 						<li>DankPyon_MeleeWeapon_TwoHandedMallet</li>
-						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSword</li>
-						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_Zeushammer</li>
-						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSword</li>
-						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_Longsword</li>
-						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_ExecutionerGreatsword</li>
-						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_ExecutionerGreatsword</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_AmethystLongsword</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_AmethystBattleAxe</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_AmethystWarHammer</li>
@@ -1873,13 +1873,6 @@
 						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedGlaive</li>
 						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedGreatSkullMace</li>
 						<li MayRequire="DankPyon.Medieval.Overhaul.House.Roxmont">DankPyon_MeleeWeapon_RoxWaraxe</li>
-						<li MayRequire="Van.DATools">DA_MeleeWeapon_Scythe</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderLongsword</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientMace</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientLongsword</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientWarAxe</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientWarhammer</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientSpear</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -1901,12 +1894,6 @@
 						<li>DankPyon_MeleeWeapon_NamedTwoHandedHammer1c</li>
 						<li>DankPyon_MeleeWeapon_TwoHandedHammer</li>
 						<li>DankPyon_MeleeWeapon_TwoHandedMallet</li>
-						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSword</li>
-						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_Zeushammer</li>
-						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSword</li>
-						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSwordBladelink</li>
-						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_ZeusHammerBladelink</li>
-						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSwordBladelink</li>
 						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_Longsword</li>
 						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_ExecutionerGreatsword</li>
 						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_ExecutionerGreatsword</li>
@@ -1945,13 +1932,6 @@
 						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedGlaive</li>
 						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedGreatSkullMace</li>
 						<li MayRequire="DankPyon.Medieval.Overhaul.House.Roxmont">DankPyon_MeleeWeapon_RoxWaraxe</li>
-						<li MayRequire="Van.DATools">DA_MeleeWeapon_Scythe</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderLongsword</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientMace</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientLongsword</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientWarAxe</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientWarhammer</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientSpear</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
@@ -2004,9 +1984,8 @@
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Halberd</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Standard</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Pike</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderBattleStandard</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderWarhammer</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderGreatsword</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Scythe</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Broom</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -2047,9 +2026,8 @@
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Halberd</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Standard</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Pike</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderBattleStandard</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderWarhammer</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderGreatsword</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Scythe</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Broom</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
@@ -2302,7 +2280,6 @@
 						<li>Bow_War</li>
 						<li>DankPyon_Bow_Hunting</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Warbow</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientLongbow</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -2315,7 +2292,6 @@
 						<li>Bow_War</li>
 						<li>DankPyon_Bow_Hunting</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Warbow</li>
-						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientLongbow</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
@@ -2377,9 +2353,6 @@
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Gun_Arquebus</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Gun_HandCannon</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Arbalest</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderPistol</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderCrossbow</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderHandCrossbow</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -2397,9 +2370,6 @@
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Gun_Arquebus</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Gun_HandCannon</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Arbalest</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderPistol</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderCrossbow</li>
-						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderHandCrossbow</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
