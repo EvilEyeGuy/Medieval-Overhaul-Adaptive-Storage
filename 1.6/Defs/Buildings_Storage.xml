@@ -1875,6 +1875,11 @@
 						<li MayRequire="DankPyon.Medieval.Overhaul.House.Roxmont">DankPyon_MeleeWeapon_RoxWaraxe</li>
 						<li MayRequire="Van.DATools">DA_MeleeWeapon_Scythe</li>
 						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderLongsword</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientMace</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientLongsword</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientWarAxe</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientWarhammer</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientSpear</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -1942,6 +1947,11 @@
 						<li MayRequire="DankPyon.Medieval.Overhaul.House.Roxmont">DankPyon_MeleeWeapon_RoxWaraxe</li>
 						<li MayRequire="Van.DATools">DA_MeleeWeapon_Scythe</li>
 						<li MayRequire="BotchJob.divineorder">BotchJob_DivineOrderLongsword</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientMace</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientLongsword</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientWarAxe</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientWarhammer</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientSpear</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
@@ -2292,6 +2302,7 @@
 						<li>Bow_War</li>
 						<li>DankPyon_Bow_Hunting</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Warbow</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientLongbow</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -2304,6 +2315,7 @@
 						<li>Bow_War</li>
 						<li>DankPyon_Bow_Hunting</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Warbow</li>
+						<li MayRequire="BotchJob.ancientarmory">BotchJob_AncientLongbow</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
