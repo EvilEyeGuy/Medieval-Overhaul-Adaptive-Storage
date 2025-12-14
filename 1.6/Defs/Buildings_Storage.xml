@@ -1727,6 +1727,12 @@
 						<li>DankPyon_MeleeWeapon_Pickaxe</li>
 						<li>DankPyon_MeleeWeapon_Warhammer</li>
 						<li>DankPyon_MeleeWeapon_WingedMace</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSword</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_Zeushammer</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSword</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSwordBladelink</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_ZeusHammerBladelink</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSwordBladelink</li>
 						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_Sword</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_AmethystDagger</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_MorningStar_Doyle</li>	
@@ -1734,6 +1740,20 @@
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_EmeraldDagger</li>
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_SapphireDagger</li>
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_RubyDagger</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_BoneClub</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_ClawClub</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedSword</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedAxe</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedMace</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedSkullMace</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Hammer</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Hacksaw</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Pickaxe</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Cleaver</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_GuardBaton</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_HeavyMace</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Shortsword</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Flail</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -1758,13 +1778,33 @@
 						<li>DankPyon_MeleeWeapon_Pickaxe</li>
 						<li>DankPyon_MeleeWeapon_Warhammer</li>
 						<li>DankPyon_MeleeWeapon_WingedMace</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSword</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_Zeushammer</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSword</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_MonoSwordBladelink</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_ZeusHammerBladelink</li>
+						<li MayRequire="Ludeon.RimWorld.Royalty">MeleeWeapon_PlasmaSwordBladelink</li>
 						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_Sword</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_AmethystDagger</li>
 						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_MorningStar_Doyle</li>
-						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_Warhammer_Doyle</li>	
+						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_Warhammer_Doyle</li>
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_EmeraldDagger</li>
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_SapphireDagger</li>
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_RubyDagger</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_BoneClub</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_ClawClub</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedSword</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedAxe</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedMace</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedSkullMace</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Hammer</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Hacksaw</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Pickaxe</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Cleaver</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_GuardBaton</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_HeavyMace</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Shortsword</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Flail</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
@@ -1829,6 +1869,13 @@
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_EmeraldWarHammer</li>
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_SapphireWarHammer</li>
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_RubyWarHammer</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_GreatBoneClub</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_GreatSkullMace</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedClaymore</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedBattleAxe</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedGlaive</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedGreatSkullMace</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul.House.Roxmont">DankPyon_MeleeWeapon_RoxWaraxe</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -1881,6 +1928,13 @@
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_EmeraldWarHammer</li>
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_SapphireWarHammer</li>
 						<li MayRequire="sierra.rf.medievaloverhaul">RF_RubyWarHammer</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_GreatBoneClub</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_GreatSkullMace</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedClaymore</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedBattleAxe</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedGlaive</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedGreatSkullMace</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul.House.Roxmont">DankPyon_MeleeWeapon_RoxWaraxe</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
@@ -1911,6 +1965,7 @@
 						<li>DankPyon_MeleeWeapon_NamedGreatsword2c</li>
 						<li>DankPyon_MeleeWeapon_NamedHalberd</li>
 						<li>DankPyon_MeleeWeapon_NamedHalberd1c</li>
+						<li>DankPyon_MeleeWeapon_Pike</li>
 						<li>DankPyon_MeleeWeapon_PikeAmboise</li>
 						<li>DankPyon_MeleeWeapon_PikeHesse</li>
 						<li>DankPyon_MeleeWeapon_PikeOswin</li>
@@ -1918,13 +1973,22 @@
 						<li>DankPyon_MeleeWeapon_Pitchfork</li>
 						<li>DankPyon_MeleeWeapon_Polehammer</li>
 						<li>DankPyon_MeleeWeapon_Spetum</li>
+						<li>DankPyon_MeleeWeapon_Warfork</li>
 						<li>DankPyon_MeleeWeapon_Swordlance</li>
 						<li>DankPyon_MeleeWeapon_TwoHandedFlangedMace</li>
 						<li>DankPyon_MeleeWeapon_TwoHandedMace</li>
 						<li>DankPyon_MeleeWeapon_WoodcuttersAxe</li>
 						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_PikeStandard</li>		
 						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_Longaxe_Doyle</li>			
-						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_Polehammer_Doyle</li>		
+						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_Polehammer_Doyle</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul.House.Roxmont">DankPyon_MeleeWeapon_PikeRoxmont</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_DaneAxe</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Claymore</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Halberd</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Standard</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Pike</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Scythe</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Broom</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -1943,6 +2007,7 @@
 						<li>DankPyon_MeleeWeapon_NamedGreatsword2c</li>
 						<li>DankPyon_MeleeWeapon_NamedHalberd</li>
 						<li>DankPyon_MeleeWeapon_NamedHalberd1c</li>
+						<li>DankPyon_MeleeWeapon_Pike</li>
 						<li>DankPyon_MeleeWeapon_PikeAmboise</li>
 						<li>DankPyon_MeleeWeapon_PikeHesse</li>
 						<li>DankPyon_MeleeWeapon_PikeOswin</li>
@@ -1950,13 +2015,22 @@
 						<li>DankPyon_MeleeWeapon_Pitchfork</li>
 						<li>DankPyon_MeleeWeapon_Polehammer</li>
 						<li>DankPyon_MeleeWeapon_Spetum</li>
+						<li>DankPyon_MeleeWeapon_Warfork</li>
 						<li>DankPyon_MeleeWeapon_Swordlance</li>
 						<li>DankPyon_MeleeWeapon_TwoHandedFlangedMace</li>
 						<li>DankPyon_MeleeWeapon_TwoHandedMace</li>
 						<li>DankPyon_MeleeWeapon_WoodcuttersAxe</li>
-						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_PikeStandard</li>	
-						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_Longaxe_Doyle</li>
-						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_Polehammer_Doyle</li>	
+						<li MayRequire="Finch.Blood">DevDesigner_Blood_MeleeWeapon_PikeStandard</li>		
+						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_Longaxe_Doyle</li>			
+						<li MayRequire="sierra.rf.housedoyle">RF_MeleeWeapon_Polehammer_Doyle</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul.House.Roxmont">DankPyon_MeleeWeapon_PikeRoxmont</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_DaneAxe</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Claymore</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Halberd</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Standard</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Pike</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Scythe</li>
+						<li MayRequire="Van.DATools">DA_MeleeWeapon_Broom</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
@@ -2208,6 +2282,7 @@
 						<li>Bow_Great</li>
 						<li>Bow_War</li>
 						<li>DankPyon_Bow_Hunting</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Warbow</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -2219,6 +2294,7 @@
 						<li>Bow_Great</li>
 						<li>Bow_War</li>
 						<li>DankPyon_Bow_Hunting</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Warbow</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
@@ -2274,6 +2350,12 @@
 						<li>DankPyon_Crossbow</li>
 						<li>DankPyon_CrossbowHeavy</li>
 						<li>DankPyon_Handgonne</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedJavalin</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedThrowingAxe</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_ThrowingAxe</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Gun_Arquebus</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Gun_HandCannon</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Arbalest</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -2285,6 +2367,12 @@
 						<li>DankPyon_Crossbow</li>
 						<li>DankPyon_CrossbowHeavy</li>
 						<li>DankPyon_Handgonne</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedJavalin</li>
+						<li MayRequire="pphhyy.BarbariansMOSubmod">pphhyy_Barbarian_RustedThrowingAxe</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_ThrowingAxe</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Gun_Arquebus</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Gun_HandCannon</li>
+						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_Arbalest</li>
 					</thingDefs>
 				</filter>
 			</defaultStorageSettings>
