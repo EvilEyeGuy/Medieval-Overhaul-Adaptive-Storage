@@ -1,175 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <!--Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[
-		defName="DankPyon_BarrelWoodLog" or
-		defName="DankPyon_TableMarket_Meats" or
-		defName="DankPyon_LargeShelf_Bread" or
-		defName="DankPyon_LargeShelfEmpty" or
-		defName="DankPyon_Crate2x2_Bones" or
-		defName="DankPyon_Crate2x2_Unhold" or
-		defName="DankPyon_Crate2x2_Lindwurm" or
-		defName="DankPyon_RusticCupboardBread" or
-		defName="DankPyon_RusticCupboardEmpty" or
-		defName="DankPyon_ShelfEmpty" or
-		defName="DankPyon_RackSword" or
-		defName="DankPyon_RackEmpty" or
-		defName="DankPyon_Storage_Cart_Empty" or
-		defName="DankPyon_SackClosed" or
-		defName="DankPyon_SackFlour" or
-		defName="DankPyon_Bricks1x1c" or
-		@name="DankPyon_LumberStorageBase" or
-		@name="DankPyon_BrickStorageBase" or
-		defname="DankPyon_IronIngots1x1c" 
-		]</xpath>
-        <value>
-            <designationCategory Inherit="false"/>
-        </value>
-    </Operation-->
-	
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="DankPyon_RackMixed"]</xpath>
-        <value>
-			<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
-        </value>
-    </Operation>
-	
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="DankPyon_RusticChest"]</xpath>
-        <value>
-			<thingClass>Building_Storage</thingClass>
-			<building>
-				<maxItemsInCell Inherit="False">2</maxItemsInCell>
-				<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-				<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
-				<fixedStorageSettings>
-					<filter>
-						<disallowNotEverStorable>true</disallowNotEverStorable>
-						<categories>
-							<li>Root</li>
-						</categories>
-						<disallowedCategories>
-							<li>Chunks</li>
-							<li>Plants</li>
-							<li>Buildings</li>
-							<!-- <li>Weapons</li> -->
-						</disallowedCategories>
-						<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
-							<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
-						</disallowedThingDefs>
-						<specialFiltersToDisallow>
-							<li>AllowLargeCorpses</li>
-						</specialFiltersToDisallow>
-					</filter>
-				</fixedStorageSettings>
-				<defaultStorageSettings>
-					<priority>Normal</priority>
-					<filter>
-						<categories>
-							<li>Manufactured</li>
-							<li>ResourcesRaw</li>
-							<li>Items</li>
-							<li>Apparel</li>
-						</categories>
-					</filter>
-				</defaultStorageSettings>
-			</building>	
-			<inspectorTabs>
-			  <li>ITab_Storage</li>
-			</inspectorTabs>
-        </value>
-    </Operation>
-	
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="DankPyon_MetalStrongbox"]</xpath>
-        <value>
-			<thingClass>Building_Storage</thingClass>
-			<building>
-				<maxItemsInCell Inherit="False">3</maxItemsInCell>
-				<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-				<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
-				<fixedStorageSettings>
-					<filter>
-						<disallowNotEverStorable>true</disallowNotEverStorable>
-						<categories>
-							<li>Root</li>
-						</categories>
-						<disallowedCategories>
-							<li>Chunks</li>
-							<li>Plants</li>
-							<li>Buildings</li>
-							<!-- <li>Weapons</li> -->
-						</disallowedCategories>
-						<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
-							<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
-						</disallowedThingDefs>
-						<specialFiltersToDisallow>
-							<li>AllowLargeCorpses</li>
-						</specialFiltersToDisallow>
-					</filter>
-				</fixedStorageSettings>
-				<defaultStorageSettings>
-					<priority>Normal</priority>
-					<filter>
-						<categories>
-							<li>Manufactured</li>
-							<li>ResourcesRaw</li>
-							<li>Items</li>
-							<li>Apparel</li>
-						</categories>
-					</filter>
-				</defaultStorageSettings>
-			</building>	
-			<inspectorTabs>
-			  <li>ITab_Storage</li>
-			</inspectorTabs>
-        </value>
-    </Operation>
-	
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[defName="DankPyon_RoyalChest"]</xpath>
-        <value>
-			<thingClass>Building_Storage</thingClass>
-			<building>
-				<maxItemsInCell Inherit="False">4</maxItemsInCell>
-				<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-				<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
-				<fixedStorageSettings>
-					<filter>
-						<disallowNotEverStorable>true</disallowNotEverStorable>
-						<categories>
-							<li>Root</li>
-						</categories>
-						<disallowedCategories>
-							<li>Chunks</li>
-							<li>Plants</li>
-							<li>Buildings</li>
-							<!-- <li>Weapons</li> -->
-						</disallowedCategories>
-						<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
-							<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
-						</disallowedThingDefs>
-						<specialFiltersToDisallow>
-							<li>AllowLargeCorpses</li>
-						</specialFiltersToDisallow>
-					</filter>
-				</fixedStorageSettings>
-				<defaultStorageSettings>
-					<priority>Normal</priority>
-					<filter>
-						<categories>
-							<li>Manufactured</li>
-							<li>ResourcesRaw</li>
-							<li>Items</li>
-							<li>Apparel</li>
-						</categories>
-					</filter>
-				</defaultStorageSettings>
-			</building>	
-			<inspectorTabs>
-			  <li>ITab_Storage</li>
-			</inspectorTabs>
-        </value>
-    </Operation>
+	<Operation Class="MedievalOverhaulAdaptiveStorage.PatchOperation_ToggleSettings">
+		<settings>
+			<li>MOASF_RemoveDesignator</li>
+		</settings>
+		<active Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[@Name="DankPyon_LumberStorageBase" or
+										 @Name="DankPyon_BrickStorageBase" or
+										 @Name="DankPyon_StorageBase"]/designationCategory</xpath>
+				</li>
 
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/DesignationCategoryDef[defName="DankPyon_RusticStorage"]</xpath>
+				</li>
+
+			</operations>
+		</active>
+  </Operation>
 </Patch>

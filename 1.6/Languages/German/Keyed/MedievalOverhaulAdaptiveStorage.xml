@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MOASF_RemoveDesignator_Label>Originale MO-Lagergebäude aus dem Bau-Menü entfernen</MOASF_RemoveDesignator_Label>
+  <MOASF_RemoveDesignator_Desc>Wenn aktiviert, werden die originalen Medieval-Overhaul-Lagergebäude aus dem Bau-Menü entfernt. Da diese Gebäude jedoch an vielen verschiedenen Stellen verwendet werden – in Dungeons, Ruinen, Verstecken und so weiter – werden sie nicht vollständig aus dem Spiel entfernt.</MOASF_RemoveDesignator_Desc>
+  
+  <MOASF_RemoveContained_Label>Inhalt der MO-Lagergebäude verbergen</MOASF_RemoveContained_Label>
+  <MOASF_RemoveContained_Desc>Wenn aktiviert, wird der Inhalt der originalen Medieval-Overhaul-Lagergebäude im Spiel ausgeblendet.</MOASF_RemoveContained_Desc>
+</LanguageData>

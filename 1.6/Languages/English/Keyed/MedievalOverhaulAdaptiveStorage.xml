@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MOASF_RemoveDesignator_Label>Remove original MO storage buildings fomr the architect menu</MOASF_RemoveDesignator_Label>
+  <MOASF_RemoveDesignator_Desc>If enabled, the original Medieval Overhaul storage buildings will be removed from the architect menu. As those buildings are used for many different things, in dungeons, ruins, hideouts, and so on, they are not entirely removed from the game.</MOASF_RemoveDesignator_Desc>
+  
+  <MOASF_RemoveContained_Label>Hide the contained items in MO's storage buildings</MOASF_RemoveContained_Label>
+  <MOASF_RemoveContained_Desc>If enabled, the game will hide the content of the original Medieval Overhaul storage buildings.</MOASF_RemoveContained_Desc>
+</LanguageData>

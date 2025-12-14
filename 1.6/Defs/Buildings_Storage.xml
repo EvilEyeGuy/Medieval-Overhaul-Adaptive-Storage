@@ -628,6 +628,7 @@
 					</thingDefs>		
 					<categories>
 						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
 						<li>DankPyon_Cheese</li>
 						<li>DankPyon_Milk</li>
 					</categories>
@@ -647,6 +648,7 @@
 					</thingDefs>
 					<categories>
 						<li>MeatRaw</li>
+						<li>PlantFoodRaw</li>
 						<li>DankPyon_Cheese</li>
 						<li>DankPyon_Milk</li>
 					</categories>
