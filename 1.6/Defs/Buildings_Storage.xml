@@ -18,7 +18,7 @@
 						<!-- <shaderType>Transparent</shaderType> -->
 						<drawSize>(3,3)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,3,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -29,38 +29,46 @@
 				<c0>
 					<rows>
 						<r0>
+							<stackOffsetFactor>1</stackOffsetFactor>
+							<stackRotation>0</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
 							<stackBehaviour>Stack</stackBehaviour>
-							<stackOffset>(0,0,0)</stackOffset>
-							<stackOffsetNorth>(0.27,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,0,0)</stackOffsetEast>
-							<stackOffsetSouth>(0.27,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.2,0.3)</stackOffsetWest>
-							<drawOffset>(0,0,0)</drawOffset>
-							<drawOffsetNorth>(0.1,0,0.4)</drawOffsetNorth>
-							<drawOffsetEast>(0,0,0)</drawOffsetEast>
-							<drawOffsetSouth>(0,0,0.2)</drawOffsetSouth>
-							<drawOffsetWest>(0.2,0.2,0.2)</drawOffsetWest>
-							<drawScale>0.95</drawScale>
-							<rotation>315</rotation>
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
+							<drawOffset>(-0.032,0,0.25)</drawOffset>
+							<drawOffsetNorth>(-0.032,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,0,0.275)</drawOffsetEast>
+							<drawOffsetSouth>(-0.032,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,0,0.275)</drawOffsetWest>
+							<drawScale>0.8</drawScale>
+							<rotation>0</rotation>
 						</r0>
 					</rows>
 				</c0>
 				<c1>
 					<rows>
 						<r0>
+							<stackOffsetFactor>1</stackOffsetFactor>
+							<stackRotation>0</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
 							<stackBehaviour>Stack</stackBehaviour>
-							<stackOffset>(0,0,0)</stackOffset>
-							<stackOffsetNorth>(0.27,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,0,0)</stackOffsetEast>
-							<stackOffsetSouth>(0.27,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.2,0.3)</stackOffsetWest>
-							<drawOffset>(0,0,0)</drawOffset>
-							<drawOffsetNorth>(-0.1,0,0.4)</drawOffsetNorth>
-							<drawOffsetEast>(0,0,0)</drawOffsetEast>
-							<drawOffsetSouth>(0,0,0.2)</drawOffsetSouth>
-							<drawOffsetWest>(0.2,0,0.2)</drawOffsetWest>
-							<drawScale>0.95</drawScale>
-							<rotation>315</rotation>
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
+							<drawOffset>(-0.132,0,0.25)</drawOffset>
+							<drawOffsetNorth>(-0.132,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,-0.01,-0.085)</drawOffsetEast>
+							<drawOffsetSouth>(-0.132,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,-0.01,-0.085)</drawOffsetWest>
+							<drawScale>0.8</drawScale>
+							<rotation>0</rotation>
 						</r0>
 					</rows>
 				</c1>
@@ -232,10 +240,9 @@
 					<li>
 						<texPath>Things/Building/Storage/BarrelEmptyLayer</texPath>
 						<graphicClass>Graphic_Single</graphicClass>
-						<shaderType>Transparent</shaderType>
 						<drawSize>(2,2)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -246,13 +253,14 @@
 				<c0>
 					<rows>
 						<r0>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackRotation>33</stackRotation>
 							
-							<stackOffset>(0.013,0.5,0.15)</stackOffset>
-							<drawOffset>(0,0,0.23)</drawOffset>
-							
-							<drawScale>0.9</drawScale>
+							<stackOffset>(0.02,0,0.06)</stackOffset>
+							<drawOffset>(0,0,0.15)</drawOffset>
+
+							<drawScale>0.7</drawScale>
 							<rotation>0</rotation>
 						</r0>
 					</rows>
@@ -311,7 +319,7 @@
 						<graphicClass>Graphic_Single</graphicClass>
 						<drawSize>(2,2)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -327,7 +335,7 @@
 							<stackBehaviour>Circle</stackBehaviour>
 							<stackOffsetFactor>0.444</stackOffsetFactor>
 		
-							<stackOffset>(0,-0.2,0.15)</stackOffset>
+							<stackOffset>(0,0,0.15)</stackOffset>
 							<drawOffset>(0.065,0,0.35)</drawOffset>							
 						</r0>
 					</rows>
@@ -385,7 +393,7 @@
 						<graphicClass>Graphic_Single</graphicClass>
 						<drawSize>(2,2)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -401,7 +409,7 @@
 							<stackBehaviour>Circle</stackBehaviour>
 							<stackOffsetFactor>0.444</stackOffsetFactor>
 		
-							<stackOffset>(0,-0.2,0.15)</stackOffset>
+							<stackOffset>(0,0,0.15)</stackOffset>
 							<drawOffset>(0.0512,0,0.35)</drawOffset>							
 						</r0>
 					</rows>
@@ -461,7 +469,7 @@
 						<graphicClass>Graphic_Single</graphicClass>
 						<drawSize>(2,2)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,3,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -477,7 +485,7 @@
 							<stackBehaviour>Circle</stackBehaviour>
 							<stackOffsetFactor>0.444</stackOffsetFactor>
 		
-							<stackOffset>(0,-0.2,0.15)</stackOffset>
+							<stackOffset>(0,0,0.15)</stackOffset>
 							<drawOffset>(0.0512,0,0.35)</drawOffset>							
 						</r0>
 					</rows>
@@ -535,7 +543,7 @@
 						<graphicClass>Graphic_Single</graphicClass>
 						<drawSize>(2,2)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,3,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -551,7 +559,7 @@
 							<stackBehaviour>Circle</stackBehaviour>
 							<stackOffsetFactor>0.444</stackOffsetFactor>
 		
-							<stackOffset>(0,-0.2,0.15)</stackOffset>
+							<stackOffset>(0,0,0.15)</stackOffset>
 							<drawOffset>(0.0512,0,0.2)</drawOffset>							
 						</r0>
 					</rows>
@@ -674,7 +682,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(5,3)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -691,15 +699,15 @@
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
 							<stackOffset>(0,0,0.9)</stackOffset>
-							<drawOffset>(0,-1.1,0.1)</drawOffset>		
+							<drawOffset>(0,0,0.1)</drawOffset>		
 							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
 							<stackOffsetEast>(0,0,0)</stackOffsetEast>
-							<stackOffsetSouth>(1,0,0)</stackOffsetSouth>
+							<stackOffsetSouth>(0,0,0)</stackOffsetSouth>
 							<stackOffsetWest>(0,0,0)</stackOffsetWest>
-							<drawOffsetNorth>(0,-1.1,-0.05)</drawOffsetNorth>
-							<drawOffsetEast>(0,-1.1,-0.2)</drawOffsetEast>
-							<drawOffsetSouth>(0,-1.1,-0.2)</drawOffsetSouth>
-							<drawOffsetWest>(0,-1.1,-0.2)</drawOffsetWest>
+							<drawOffsetNorth>(0,0,-0.05)</drawOffsetNorth>
+							<drawOffsetEast>(0,0,-0.2)</drawOffsetEast>
+							<drawOffsetSouth>(0,0,-0.1)</drawOffsetSouth>
+							<drawOffsetWest>(0,0,-0.2)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
@@ -712,15 +720,15 @@
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
 							<stackOffset>(0,0,0.9)</stackOffset>
-							<drawOffset>(0,-1.1,0.1)</drawOffset>		
+							<drawOffset>(0,0,0.1)</drawOffset>		
 							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
 							<stackOffsetEast>(0,0,0)</stackOffsetEast>
-							<stackOffsetSouth>(1,0,0)</stackOffsetSouth>
+							<stackOffsetSouth>(0,0,0)</stackOffsetSouth>
 							<stackOffsetWest>(0,0,0)</stackOffsetWest>
-							<drawOffsetNorth>(0,-1.1,-0.05)</drawOffsetNorth>
-							<drawOffsetEast>(0,-1.1,-0.2)</drawOffsetEast>
-							<drawOffsetSouth>(0,-1.1,-0.2)</drawOffsetSouth>
-							<drawOffsetWest>(0,-1.1,-0.2)</drawOffsetWest>
+							<drawOffsetNorth>(0,0,-0.05)</drawOffsetNorth>
+							<drawOffsetEast>(0,0,-0.2)</drawOffsetEast>
+							<drawOffsetSouth>(0,0,-0.1)</drawOffsetSouth>
+							<drawOffsetWest>(0,0,-0.2)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>
@@ -733,15 +741,15 @@
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
 							<stackOffset>(0,0,0.9)</stackOffset>
-							<drawOffset>(0,-1.1,0.1)</drawOffset>		
+							<drawOffset>(0,0,0.1)</drawOffset>		
 							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
 							<stackOffsetEast>(0,0,0)</stackOffsetEast>
-							<stackOffsetSouth>(1,0,0)</stackOffsetSouth>
+							<stackOffsetSouth>(0,0,0)</stackOffsetSouth>
 							<stackOffsetWest>(0,0,0)</stackOffsetWest>
-							<drawOffsetNorth>(0,-1.1,-0.05)</drawOffsetNorth>
-							<drawOffsetEast>(0,-1.1,-0.2)</drawOffsetEast>
-							<drawOffsetSouth>(-0.05,-1.1,-0.2)</drawOffsetSouth>
-							<drawOffsetWest>(0,-1.1,-0.2)</drawOffsetWest>
+							<drawOffsetNorth>(0,0,-0.05)</drawOffsetNorth>
+							<drawOffsetEast>(0,0,-0.2)</drawOffsetEast>
+							<drawOffsetSouth>(0,0,-0.1)</drawOffsetSouth>
+							<drawOffsetWest>(0,0,-0.2)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c2>
@@ -866,7 +874,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(4,4)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -885,15 +893,15 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,0,0)</stackOffsetEast>
-							<stackOffsetSouth>(0,0,0.5)</stackOffsetSouth>
-							<stackOffsetWest>(0,0,0)</stackOffsetWest>
+							<stackOffsetNorth>(0,0.004,0)</stackOffsetNorth>
+							<stackOffsetEast>(0,0.004,0)</stackOffsetEast>
+							<stackOffsetSouth>(0,0.004,0.5)</stackOffsetSouth>
+							<stackOffsetWest>(0,0.004,0)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0,-1,0</drawOffsetNorth>
-							<drawOffsetEast>(0.5,-1,0)</drawOffsetEast>
-							<drawOffsetSouth>(0.1,-1,0.2)</drawOffsetSouth>
-							<drawOffsetWest>(0,-1,0)</drawOffsetWest>
+							<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+							<drawOffsetEast>(0.5,0,0)</drawOffsetEast>
+							<drawOffsetSouth>(0.1,0,0.2)</drawOffsetSouth>
+							<drawOffsetWest>(0,0,0)</drawOffsetWest>
 						</r0>
 						<r1>
 							<drawScale>1</drawScale>
@@ -905,14 +913,14 @@
 							<drawOffset>(0,0,0)</drawOffset>		
 							
 							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,0,0)</stackOffsetEast>
-							<stackOffsetSouth>(0,0,0.5)</stackOffsetSouth>
-							<stackOffsetWest>(0,0,0)</stackOffsetWest>
+							<stackOffsetEast>(0,0.004,0)</stackOffsetEast>
+							<stackOffsetSouth>(0,0.004,0.5)</stackOffsetSouth>
+							<stackOffsetWest>(0,0.004,0)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0,-2,0</drawOffsetNorth>
-							<drawOffsetEast>(0,-1,0)</drawOffsetEast>
-							<drawOffsetSouth>(0.9,-1,-0.8)</drawOffsetSouth>
-							<drawOffsetWest>(0,-1,0)</drawOffsetWest>
+							<drawOffsetNorth>(0,-1.2,0)</drawOffsetNorth>
+							<drawOffsetEast>(0,0,0)</drawOffsetEast>
+							<drawOffsetSouth>(0.9,0,-0.8)</drawOffsetSouth>
+							<drawOffsetWest>(0,0,0)</drawOffsetWest>
 						</r1>
 					</rows>
 				</c0>
@@ -927,15 +935,15 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetNorth>(0,0,0.45)</stackOffsetNorth>
-							<stackOffsetEast>(0.5,0,0)</stackOffsetEast>
+							<stackOffsetNorth>(0,0.004,0.45)</stackOffsetNorth>
+							<stackOffsetEast>(0.5,0.004,0)</stackOffsetEast>
 							<stackOffsetSouth>(0,0,0.45)</stackOffsetSouth>
-							<stackOffsetWest>(0.5,0,0)</stackOffsetWest>
+							<stackOffsetWest>(0.5,0.004,0)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.1,-1,0.45</drawOffsetNorth>
-							<drawOffsetEast>(0.4,-1,0.35)</drawOffsetEast>
-							<drawOffsetSouth>(-0.9,0,0.65)</drawOffsetSouth>
-							<drawOffsetWest>(0.4,-1,0.35)</drawOffsetWest>
+							<drawOffsetNorth>(-0.1,0,0.45)</drawOffsetNorth>
+							<drawOffsetEast>(0.4,0,0.35)</drawOffsetEast>
+							<drawOffsetSouth>(-0.9,0.5,0.65)</drawOffsetSouth>
+							<drawOffsetWest>(0.4,0,0.35)</drawOffsetWest>
 						</r0>
 						<r1>
 							<drawScale>1</drawScale>
@@ -946,15 +954,15 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetNorth>(0,0,0.45)</stackOffsetNorth>
-							<stackOffsetEast>(0.5,0,0)</stackOffsetEast>
+							<stackOffsetNorth>(0,0.004,0.45)</stackOffsetNorth>
+							<stackOffsetEast>(0.5,0.004,0)</stackOffsetEast>
 							<stackOffsetSouth>(0,0,0.45)</stackOffsetSouth>
-							<stackOffsetWest>(0.5,0,0)</stackOffsetWest>
+							<stackOffsetWest>(0.5,0.004,0)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.9,-1,-0.55)</drawOffsetNorth>
-							<drawOffsetEast>(-0.6,-1,-0.3)</drawOffsetEast>
-							<drawOffsetSouth>(-0.1,0,-0.35)</drawOffsetSouth>
-							<drawOffsetWest>(-0.6,-1,-0.3)</drawOffsetWest>
+							<drawOffsetNorth>(-0.9,0,-0.55)</drawOffsetNorth>
+							<drawOffsetEast>(-0.6,0,-0.3)</drawOffsetEast>
+							<drawOffsetSouth>(-0.1,0.5,-0.35)</drawOffsetSouth>
+							<drawOffsetWest>(-0.6,0,-0.3)</drawOffsetWest>
 						</r1>
 					</rows>
 				</c1>
@@ -1058,7 +1066,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(4,3)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -1079,14 +1087,14 @@
 							<drawOffset>(0,0,0)</drawOffset>	
 							
 							<stackOffsetNorth>(0.5,-0.05,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,0,0.5)</stackOffsetEast>
+							<stackOffsetEast>(0,0.004,0.5)</stackOffsetEast>
 							<stackOffsetSouth>(0.5,-0.05,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,0,0.5)</stackOffsetWest>
+							<stackOffsetWest>(0,0.004,0.5)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.3,-1,-0.05)</drawOffsetNorth>
-							<drawOffsetEast>(0,-1,0.3)</drawOffsetEast>
-							<drawOffsetSouth>(0.3,-1,-0.05)</drawOffsetSouth>
-							<drawOffsetWest>(0,-1,0.3)</drawOffsetWest>
+							<drawOffsetNorth>(0.3,0,-0.05)</drawOffsetNorth>
+							<drawOffsetEast>(0,0,0.3)</drawOffsetEast>
+							<drawOffsetSouth>(0.3,0,-0.05)</drawOffsetSouth>
+							<drawOffsetWest>(0,0,0.3)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
@@ -1107,10 +1115,10 @@
 							<stackOffsetSouth>(0.5,-0.05,0)</stackOffsetSouth>
 							<stackOffsetWest>(0,-0.05,0.5)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.6,-1,0.2)</drawOffsetNorth>
-							<drawOffsetEast>(0,-1,-0.6)</drawOffsetEast>
-							<drawOffsetSouth>(-0.6,-1,0.2)</drawOffsetSouth>
-							<drawOffsetWest>(0,-1,-0.6)</drawOffsetWest>
+							<drawOffsetNorth>(-0.6,0,0.2)</drawOffsetNorth>
+							<drawOffsetEast>(0,0,-0.6)</drawOffsetEast>
+							<drawOffsetSouth>(-0.6,0,0.2)</drawOffsetSouth>
+							<drawOffsetWest>(0,0,-0.6)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>
@@ -1237,7 +1245,7 @@
 						<graphicClass>Graphic_Single</graphicClass>
 						<drawSize>(4,4)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -1248,6 +1256,12 @@
 				<c0>
 					<rows>
 						<r0>
+							<stackOffsetWest>(0,0,0)</stackOffsetWest>
+							<drawOffsetWest>(0,0.5,0)</drawOffsetWest>
+							<stackOffsetEast>(0,0,0)</stackOffsetEast>
+							<drawOffsetEast>(0,0.5,0)</drawOffsetEast>
+							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
+							<drawOffsetNorth>(0,0.5,0)</drawOffsetNorth>
 							<drawScale>0.95</drawScale>
 							<rotation>10</rotation>
 							<stackRotation>-2</stackRotation>
@@ -1257,11 +1271,17 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetSouth>(0.6,0,0)</stackOffsetSouth>
+							<stackOffsetSouth>(0.6,0.004,0)</stackOffsetSouth>
 							
-							<drawOffsetSouth>(0.35,-1,0.3)</drawOffsetSouth>
+							<drawOffsetSouth>(0.35,0,0.3)</drawOffsetSouth>
 						</r0>
 						<r1>
+							<stackOffsetWest>(0,0,0)</stackOffsetWest>
+							<drawOffsetWest>(0,0.5,0)</drawOffsetWest>
+							<stackOffsetEast>(0,0,0)</stackOffsetEast>
+							<drawOffsetEast>(0,0.5,0)</drawOffsetEast>
+							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
+							<drawOffsetNorth>(0,0.5,0)</drawOffsetNorth>
 							<drawScale>0.95</drawScale>
 							<rotation>13</rotation>
 							<stackRotation>3</stackRotation>
@@ -1271,15 +1291,21 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetSouth>(0.6,0,0)</stackOffsetSouth>
+							<stackOffsetSouth>(0.6,0.004,0)</stackOffsetSouth>
 							
-							<drawOffsetSouth>(0.35,-1.05,-0.35)</drawOffsetSouth>
+							<drawOffsetSouth>(0.35,-0.05,-0.35)</drawOffsetSouth>
 						</r1>
 					</rows>
 				</c0>
 				<c1>
 					<rows>
 						<r0>
+							<stackOffsetWest>(0,0,0)</stackOffsetWest>
+							<drawOffsetWest>(0,0.5,0)</drawOffsetWest>
+							<stackOffsetEast>(0,0,0)</stackOffsetEast>
+							<drawOffsetEast>(0,0.5,0)</drawOffsetEast>
+							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
+							<drawOffsetNorth>(0,0.5,0)</drawOffsetNorth>
 							<drawScale>0.95</drawScale>
 							<rotation>-10</rotation>
 							<stackRotation>2</stackRotation>
@@ -1289,11 +1315,17 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetSouth>(0.6,0,0)</stackOffsetSouth>
+							<stackOffsetSouth>(0.6,0.004,0)</stackOffsetSouth>
 							
-							<drawOffsetSouth>(-0.65,-1.06,1)</drawOffsetSouth>
+							<drawOffsetSouth>(-0.65,-0.06,1)</drawOffsetSouth>
 						</r0>
 						<r1>
+							<stackOffsetWest>(0,0,0)</stackOffsetWest>
+							<drawOffsetWest>(0,0.5,0)</drawOffsetWest>
+							<stackOffsetEast>(0,0,0)</stackOffsetEast>
+							<drawOffsetEast>(0,0.5,0)</drawOffsetEast>
+							<stackOffsetNorth>(0,0,0)</stackOffsetNorth>
+							<drawOffsetNorth>(0,0.5,0)</drawOffsetNorth>
 							<drawScale>0.95</drawScale>
 							<rotation>-10</rotation>
 							<stackRotation>2</stackRotation>
@@ -1303,9 +1335,9 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetSouth>(0.6,0,0)</stackOffsetSouth>
+							<stackOffsetSouth>(0.6,0.004,0)</stackOffsetSouth>
 							
-							<drawOffsetSouth>(-0.65,-1.07,0.35)</drawOffsetSouth>
+							<drawOffsetSouth>(-0.65,-0.07,0.35)</drawOffsetSouth>
 						</r1>
 					</rows>
 				</c1>
@@ -1431,7 +1463,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(5,3)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -1451,15 +1483,15 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetNorth>(0,1,0.35)</stackOffsetNorth>
-							<stackOffsetEast>(0,1,0.5)</stackOffsetEast>
-							<stackOffsetSouth>(0,1,0.35)</stackOffsetSouth>
-							<stackOffsetWest>(0,1,0.5)</stackOffsetWest>
+							<stackOffsetNorth>(0,0.5,0.35)</stackOffsetNorth>
+							<stackOffsetEast>(0,0.5,0.5)</stackOffsetEast>
+							<stackOffsetSouth>(0,0.5,0.35)</stackOffsetSouth>
+							<stackOffsetWest>(0,0.5,0.5)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.05,-1,0.25)</drawOffsetNorth>
-							<drawOffsetEast>(0,-1,0.3)</drawOffsetEast>
-							<drawOffsetSouth>(0.05,-1,0.25)</drawOffsetSouth>
-							<drawOffsetWest>(0,-1,0.3)</drawOffsetWest>
+							<drawOffsetNorth>(0.05,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0,0,0.3)</drawOffsetEast>
+							<drawOffsetSouth>(0.05,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(0,0,0.3)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
@@ -1475,15 +1507,15 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetNorth>(0,1,0.35)</stackOffsetNorth>
-							<stackOffsetEast>(0,1,0.43)</stackOffsetEast>
-							<stackOffsetSouth>(0,1,0.35)</stackOffsetSouth>
-							<stackOffsetWest>(0,1,0.43)</stackOffsetWest>
+							<stackOffsetNorth>(0,0.5,0.35)</stackOffsetNorth>
+							<stackOffsetEast>(0,1.2,0.43)</stackOffsetEast>
+							<stackOffsetSouth>(0,0.5,0.35)</stackOffsetSouth>
+							<stackOffsetWest>(0,1.2,0.43)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.05,-1,0.25)</drawOffsetNorth>
-							<drawOffsetEast>(0,-2,0)</drawOffsetEast>
-							<drawOffsetSouth>(0.05,-1,0.25)</drawOffsetSouth>
-							<drawOffsetWest>(0,-2,0)</drawOffsetWest>
+							<drawOffsetNorth>(0.05,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0,-1.2,0)</drawOffsetEast>
+							<drawOffsetSouth>(0.05,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(0,-1.2,0)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>
@@ -1499,15 +1531,15 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetNorth>(0,1,0.35)</stackOffsetNorth>
-							<stackOffsetEast>(0,1,0.43)</stackOffsetEast>
-							<stackOffsetSouth>(0,1,0.35)</stackOffsetSouth>
-							<stackOffsetWest>(0,1,0.43)</stackOffsetWest>
+							<stackOffsetNorth>(0,0.5,0.35)</stackOffsetNorth>
+							<stackOffsetEast>(0,1.2,0.43)</stackOffsetEast>
+							<stackOffsetSouth>(0,0.5,0.35)</stackOffsetSouth>
+							<stackOffsetWest>(0,1.2,0.43)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.05,-1,0.25)</drawOffsetNorth>
-							<drawOffsetEast>(0,-2,0)</drawOffsetEast>
-							<drawOffsetSouth>(-0.05,-1,0.25)</drawOffsetSouth>
-							<drawOffsetWest>(0,-2,0)</drawOffsetWest>
+							<drawOffsetNorth>(-0.05,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0,-1.2,0)</drawOffsetEast>
+							<drawOffsetSouth>(-0.05,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(0,-1.2,0)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c2>
@@ -1616,7 +1648,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(2.75,2.75)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -1636,15 +1668,15 @@
 							<stackOffset>(0,0,0)</stackOffset>
 							<drawOffset>(0,0,0)</drawOffset>	
 							
-							<stackOffsetNorth>((0.5,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,0,0.5)</stackOffsetEast>
-							<stackOffsetSouth>(0.5,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,0,0.5)</stackOffsetWest>
+							<stackOffsetNorth>((0.5,0.004,0)</stackOffsetNorth>
+							<stackOffsetEast>(0,0.004,0.5)</stackOffsetEast>
+							<stackOffsetSouth>(0.5,0.004,0)</stackOffsetSouth>
+							<stackOffsetWest>(0,0.004,0.5)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.35,-1,0)</drawOffsetNorth>
-							<drawOffsetEast>(0,-1,0.1)</drawOffsetEast>
-							<drawOffsetSouth>(0.35,-1,0)</drawOffsetSouth>
-							<drawOffsetWest>(0,-1,0.1)</drawOffsetWest>
+							<drawOffsetNorth>(0.35,0,0)</drawOffsetNorth>
+							<drawOffsetEast>(0,0,0.1)</drawOffsetEast>
+							<drawOffsetSouth>(0.35,0,0)</drawOffsetSouth>
+							<drawOffsetWest>(0,0,0.1)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
@@ -1665,10 +1697,10 @@
 							<stackOffsetSouth>(0.5,0,0)</stackOffsetSouth>
 							<stackOffsetWest>(0,0,0.5)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.65,0,0.4)</drawOffsetNorth>
-							<drawOffsetEast>(0,0,-0.4)</drawOffsetEast>
-							<drawOffsetSouth>(-0.65,0,0.4)</drawOffsetSouth>
-							<drawOffsetWest>(0,0,-0.4)</drawOffsetWest>
+							<drawOffsetNorth>(-0.65,0.5,0.4)</drawOffsetNorth>
+							<drawOffsetEast>(0,0.5,-0.4)</drawOffsetEast>
+							<drawOffsetSouth>(-0.65,0.5,0.4)</drawOffsetSouth>
+							<drawOffsetWest>(0,0.5,-0.4)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>
@@ -1713,6 +1745,9 @@
 				<filter>
 					<disallowNotEverStorable>true</disallowNotEverStorable>
 					<thingDefs>
+						<li>MeleeWeapon_Gladius</li>
+						<li>MeleeWeapon_Mace</li>
+						<li>MeleeWeapon_LongSword</li>
 						<li>DankPyon_MeleeWeapon_ArmingSword</li>
 						<li>DankPyon_MeleeWeapon_BlacksmithHammer</li>
 						<li>DankPyon_MeleeWeapon_Bludgeon</li>
@@ -1756,6 +1791,10 @@
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_HeavyMace</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Shortsword</li>
 						<li MayRequire="OskarPotocki.VFE.Medieval2">VFEM2_MeleeWeapon_Flail</li>
+						
+						<li MayRequire="athelas.medievalkingdoms.core">BA_Hatchet</li>
+						<li MayRequire="athelas.medievalkingdoms.core">BA_Pickhammer</li>
+						<li MayRequire="athelas.medievalkingdoms.core">BA_Scythe</li>
 					</thingDefs>
 				</filter>
 			</fixedStorageSettings>
@@ -1764,6 +1803,9 @@
 				<filter>
 					<disallowNotEverStorable>true</disallowNotEverStorable>
 					<thingDefs>
+						<li>MeleeWeapon_Gladius</li>
+						<li>MeleeWeapon_Mace</li>
+						<li>MeleeWeapon_LongSword</li>
 						<li>DankPyon_MeleeWeapon_ArmingSword</li>
 						<li>DankPyon_MeleeWeapon_BlacksmithHammer</li>
 						<li>DankPyon_MeleeWeapon_Bludgeon</li>
@@ -2060,7 +2102,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(3,3)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -2071,48 +2113,52 @@
 				<c0>
 					<rows>
 						<r0>
-							<drawScale>1</drawScale>
-							<rotation>270</rotation>
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.95</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.032,0,0.32)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.05,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.05,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.05,-1,0.25)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1,0.2)</drawOffsetEast>
-							<drawOffsetSouth>(0.05,0,0)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1,0.2)</drawOffsetWest>
+							<drawOffsetNorth>(-0.032,0,0.32)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,0,0.345)</drawOffsetEast>
+							<drawOffsetSouth>(-0.032,0,0.32)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,0,0.345)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
 				<c1>
 					<rows>
 						<r0>
-							<drawScale>1</drawScale>
-							<rotation>270</rotation>
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.95</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.132,0,0.32)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.02,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.02,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.15,-1,0.25)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1.1,0)</drawOffsetEast>
-							<drawOffsetSouth>(-0.15,0,0)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1.1,0)</drawOffsetWest>
+							<drawOffsetNorth>(-0.132,0,0.32)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,-0.01,-0.015)</drawOffsetEast>
+							<drawOffsetSouth>(-0.132,0,0.32)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,-0.01,-0.015)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>
@@ -2136,7 +2182,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(3,3)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -2147,48 +2193,52 @@
 				<c0>
 					<rows>
 						<r0>
-							<drawScale>1</drawScale>
-							<rotation>250</rotation><!--315-->
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.8</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.032,0,0.25)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.05,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.05,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.05,-1,0.4)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1,0.3)</drawOffsetEast>
-							<drawOffsetSouth>(0.05,0,0.2)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1,0.3)</drawOffsetWest>
+							<drawOffsetNorth>(-0.032,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,0,0.275)</drawOffsetEast>
+							<drawOffsetSouth>(-0.032,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,0,0.275)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
 				<c1>
 					<rows>
 						<r0>
-							<drawScale>1</drawScale>
-							<rotation>250</rotation><!--315-->
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.8</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.132,0,0.25)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.02,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.02,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.15,-1,0.4)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1.1,0.1)</drawOffsetEast>
-							<drawOffsetSouth>(-0.15,0,0.2)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1.1,0.1)</drawOffsetWest>
+							<drawOffsetNorth>(-0.132,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,-0.01,-0.085)</drawOffsetEast>
+							<drawOffsetSouth>(-0.132,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,-0.01,-0.085)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>
@@ -2212,7 +2262,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(3,3)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -2223,48 +2273,52 @@
 				<c0>
 					<rows>
 						<r0>
-							<drawScale>1</drawScale>
-							<rotation>205</rotation><!-- 315 -->
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.8</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.032,0,0.35)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.05,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.05,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.05,-1,0.4)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1,0.45)</drawOffsetEast>
-							<drawOffsetSouth>(0.05,0,0.4)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1,0.45)</drawOffsetWest>
+							<drawOffsetNorth>(-0.032,0,0.35)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,0,0.375)</drawOffsetEast>
+							<drawOffsetSouth>(-0.032,0,0.35)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,0,0.375)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
 				<c1>
 					<rows>
 						<r0>
-							<drawScale>1</drawScale>
-							<rotation>205</rotation><!-- 315 -->
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.8</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.132,0,0.35)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.02,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.02,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.15,-1,0.4)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1.1,0.2)</drawOffsetEast>
-							<drawOffsetSouth>(-0.15,0,0.4)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1.1,0.2)</drawOffsetWest>
+							<drawOffsetNorth>(-0.132,0,0.35)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,-0.01,0.015)</drawOffsetEast>
+							<drawOffsetSouth>(-0.132,0,0.35)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,-0.01,0.015)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>
@@ -2402,7 +2456,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(3,3)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -2413,48 +2467,52 @@
 				<c0>
 					<rows>
 						<r0>
-							<drawScale>0.9</drawScale>
-							<rotation>225</rotation><!--315-->
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.8</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.032,0,0.25)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.05,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.05,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.05,-1,0.4)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1,0.3)</drawOffsetEast>
-							<drawOffsetSouth>(0.05,0,0.2)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1,0.3)</drawOffsetWest>
+							<drawOffsetNorth>(-0.032,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,0,0.275)</drawOffsetEast>
+							<drawOffsetSouth>(-0.032,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,0,0.275)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
 				<c1>
 					<rows>
 						<r0>
-							<drawScale>0.9</drawScale>
-							<rotation>225</rotation><!--315-->
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.8</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.132,0,0.25)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.02,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.02,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.15,-1,0.4)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1.1,0.1)</drawOffsetEast>
-							<drawOffsetSouth>(-0.15,0,0.2)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1.1,0.1)</drawOffsetWest>
+							<drawOffsetNorth>(-0.132,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,-0.01,-0.085)</drawOffsetEast>
+							<drawOffsetSouth>(-0.132,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,-0.01,-0.085)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>
@@ -2478,7 +2536,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(3,3)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -2489,48 +2547,52 @@
 				<c0>
 					<rows>
 						<r0>
-							<drawScale>0.9</drawScale>
-							<rotation>270</rotation><!--0-->
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.8</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.032,0,0.25)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.05,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.05,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.05,-1,0.25)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1,0.2)</drawOffsetEast>
-							<drawOffsetSouth>(0.05,0,0)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1,0.2)</drawOffsetWest>
+							<drawOffsetNorth>(-0.032,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,0,0.275)</drawOffsetEast>
+							<drawOffsetSouth>(-0.032,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,0,0.275)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
 				<c1>
 					<rows>
 						<r0>
-							<drawScale>0.9</drawScale>
-							<rotation>270</rotation><!--0-->
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.8</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.132,0,0.25)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.02,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.02,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.15,-1,0.25)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1.1,0)</drawOffsetEast>
-							<drawOffsetSouth>(-0.15,0,0)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1.1,0)</drawOffsetWest>
+							<drawOffsetNorth>(-0.132,0,0.25)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,-0.01,-0.085)</drawOffsetEast>
+							<drawOffsetSouth>(-0.132,0,0.25)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,-0.01,-0.085)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>
@@ -2554,7 +2616,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(3,3)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -2565,48 +2627,52 @@
 				<c0>
 					<rows>
 						<r0>
-							<drawScale>0.9</drawScale>
-							<rotation>270</rotation>
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.65</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.032,0,0.2)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.05,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.05,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.05,-1,0.25)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1,0.2)</drawOffsetEast>
-							<drawOffsetSouth>(0.05,0,0)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1,0.2)</drawOffsetWest>
+							<drawOffsetNorth>(-0.032,0,0.2)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,0,0.225)</drawOffsetEast>
+							<drawOffsetSouth>(-0.032,0,0.2)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,0,0.225)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
 				<c1>
 					<rows>
 						<r0>
-							<drawScale>0.9</drawScale>
-							<rotation>270</rotation>
-							<stackRotation>1</stackRotation>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+							<workerClass>MedievalOverhaulAdaptiveStorage.WeaponRackItemGraphicWorker</workerClass>
+							<drawScale>0.65</drawScale>
+							<rotation>0</rotation>
+							<stackRotation>0</stackRotation>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0,0,0)</stackOffset>
-							<drawOffset>(0,0,0)</drawOffset>	
+							<stackOffset>(0.3,0,0)</stackOffset>
+							<drawOffset>(-0.132,0,0.2)</drawOffset>	
 							
-							<stackOffsetNorth>(0.25,0,0)</stackOffsetNorth>
-							<stackOffsetEast>(0,-0.02,0.2)</stackOffsetEast>
-							<stackOffsetSouth>(0.25,0,0)</stackOffsetSouth>
-							<stackOffsetWest>(0,-0.02,0.2)</stackOffsetWest>
+							<stackOffsetNorth>(0.3,0,0)</stackOffsetNorth>
+							<stackOffsetEast>(0.02,-0.001,0.12)</stackOffsetEast>
+							<stackOffsetSouth>(0.3,0,0)</stackOffsetSouth>
+							<stackOffsetWest>(-0.02,-0.001,0.12)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.15,-1,0.25)</drawOffsetNorth>
-							<drawOffsetEast>(0.18,-1.1,0)</drawOffsetEast>
-							<drawOffsetSouth>(-0.15,0,0)</drawOffsetSouth>
-							<drawOffsetWest>(-0.18,-1.1,0)</drawOffsetWest>
+							<drawOffsetNorth>(-0.132,0,0.2)</drawOffsetNorth>
+							<drawOffsetEast>(0.12,-0.01,-0.135)</drawOffsetEast>
+							<drawOffsetSouth>(-0.132,0,0.2)</drawOffsetSouth>
+							<drawOffsetWest>(-0.12,-0.01,-0.135)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>
@@ -2724,7 +2790,7 @@
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(4,4)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+0.2,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -2749,10 +2815,10 @@
 							<stackOffsetSouth>(0,-0.05,0.3)</stackOffsetSouth>
 							<stackOffsetWest>(0,-0.05,0.3)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.8,-1,0.5)</drawOffsetNorth>
-							<drawOffsetEast>(0.8,-1,0.5)</drawOffsetEast>
-							<drawOffsetSouth>(0.2,-1,0.5)</drawOffsetSouth>
-							<drawOffsetWest>(0.2,-1,0.5)</drawOffsetWest>
+							<drawOffsetNorth>(0.8,0,0.5)</drawOffsetNorth>
+							<drawOffsetEast>(0.8,0,0.5)</drawOffsetEast>
+							<drawOffsetSouth>(0.2,0,0.5)</drawOffsetSouth>
+							<drawOffsetWest>(0.2,0,0.5)</drawOffsetWest>
 						</r0>
 						<r1>
 							<drawScale>0.9</drawScale>
@@ -2769,10 +2835,10 @@
 							<stackOffsetSouth>(0,-0.05,0.3)</stackOffsetSouth>
 							<stackOffsetWest>(0,-0.05,0.3)</stackOffsetWest>
 							
-							<drawOffsetNorth>(0.4,-1,-0.4)</drawOffsetNorth>
-							<drawOffsetEast>(-0.5,-1,0.6)</drawOffsetEast>
-							<drawOffsetSouth>(0.6,-1,-0.4)</drawOffsetSouth>
-							<drawOffsetWest>(-0.4,-1,0.6)</drawOffsetWest>
+							<drawOffsetNorth>(0.4,0,-0.4)</drawOffsetNorth>
+							<drawOffsetEast>(-0.5,0,0.6)</drawOffsetEast>
+							<drawOffsetSouth>(0.6,0,-0.4)</drawOffsetSouth>
+							<drawOffsetWest>(-0.4,0,0.6)</drawOffsetWest>
 						</r1>
 					</rows>
 				</c0>
@@ -2793,10 +2859,10 @@
 							<stackOffsetSouth>(0,-0.05,0.3)</stackOffsetSouth>
 							<stackOffsetWest>(0,-0.05,0.3)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-0.9,-1,0.5)</drawOffsetNorth>
-							<drawOffsetEast>(0.1,-1,-0.5)</drawOffsetEast>
-							<drawOffsetSouth>(-0.1,-1,0.5)</drawOffsetSouth>
-							<drawOffsetWest>(0.9,-1,-0.5)</drawOffsetWest>
+							<drawOffsetNorth>(-0.9,0,0.5)</drawOffsetNorth>
+							<drawOffsetEast>(0.1,0,-0.5)</drawOffsetEast>
+							<drawOffsetSouth>(-0.1,0,0.5)</drawOffsetSouth>
+							<drawOffsetWest>(0.9,0,-0.5)</drawOffsetWest>
 						</r0>
 						<r1>
 							<drawScale>0.9</drawScale>
@@ -2813,10 +2879,10 @@
 							<stackOffsetSouth>(0,-0.05,0.3)</stackOffsetSouth>
 							<stackOffsetWest>(0,-0.05,0.3)</stackOffsetWest>
 							
-							<drawOffsetNorth>(-1.3,-1,-0.4)</drawOffsetNorth>
-							<drawOffsetEast>(-1.3,-1,-0.4)</drawOffsetEast>
-							<drawOffsetSouth>(0.3,-1,-0.4)</drawOffsetSouth>
-							<drawOffsetWest>(0.3,-1,-0.4)</drawOffsetWest>
+							<drawOffsetNorth>(-1.3,0,-0.4)</drawOffsetNorth>
+							<drawOffsetEast>(-1.3,0,-0.4)</drawOffsetEast>
+							<drawOffsetSouth>(0.3,0,-0.4)</drawOffsetSouth>
+							<drawOffsetWest>(0.3,0,-0.4)</drawOffsetWest>
 						</r1>
 					</rows>
 				</c1>
@@ -2933,7 +2999,7 @@
 					<graphicClass>Graphic_Single</graphicClass>
 					<drawSize>(2,2)</drawSize>
 					<drawRotated>false</drawRotated>
-					<drawOffset>(0,2,0)</drawOffset>
+					<drawOffset>(0,0,0)</drawOffset>
                 </graphicData>
 				<graphicDatas>
 					<li>
@@ -2941,7 +3007,7 @@
 						<graphicClass>Graphic_Single</graphicClass>
 						<drawSize>(2,2)</drawSize>
 						<drawRotated>false</drawRotated>
-						<drawOffset>(0,+3,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -2955,8 +3021,8 @@
 							<drawScale>0.9</drawScale>
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackRotation>0</stackRotation>
-							<stackOffset>(0.013,0.1,0.13)</stackOffset>
-							<drawOffset>(0,1,0)</drawOffset>	
+							<stackOffset>(0.013,0,0.13)</stackOffset>
+							<drawOffset>(0,0,0)</drawOffset>	
 						</r0>
 					</rows>
 				</c0>
@@ -4226,13 +4292,14 @@
 						<texPath>Things/Building/Storage/RusticEmptyShelf1x1Layer1</texPath>
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(3,3)</drawSize>
-						<drawOffset>(0,1.5,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 					<li>
 						<texPath>Things/Building/Storage/RusticEmptyShelf1x1Layer2</texPath>
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(3,3)</drawSize>
-						<drawOffset>(0,3,0)</drawOffset>
+						<drawOffset>(0,0.15,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -4249,12 +4316,12 @@
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0.013,0.7,0.4)</stackOffset>
+							<stackOffset>(0.013,0.42,0.4)</stackOffset>
 
 							<drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
-							<drawOffsetEast>(0,100,0)</drawOffsetEast>
-							<drawOffsetSouth>(0,100,0)</drawOffsetSouth>
-							<drawOffsetWest>(0,100,0)</drawOffsetWest>
+							<drawOffsetEast>(0,0.6,0)</drawOffsetEast>
+							<drawOffsetSouth>(0,0.6,0)</drawOffsetSouth>
+							<drawOffsetWest>(0,0.6,0)</drawOffsetWest>
 
 						</r0>
 					</rows>
@@ -4329,13 +4396,14 @@
 						<texPath>Things/Building/Storage/RusticEmptyShelf1x2Layer1</texPath>
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(3.5,3)</drawSize>
-						<drawOffset>(0,1.5,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 					<li>
 						<texPath>Things/Building/Storage/RusticEmptyShelf1x2Layer2</texPath>
 						<graphicClass>Graphic_Multi</graphicClass>
 						<drawSize>(3.5,3)</drawSize>
-						<drawOffset>(0,3,0)</drawOffset>
+						<drawOffset>(0,0.15,0)</drawOffset>
+						<altitudeLayer>ItemImportant</altitudeLayer>
 					</li>
 				</graphicDatas>
             </li>
@@ -4352,12 +4420,12 @@
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0.013,0.7,0.4)</stackOffset>
+							<stackOffset>(0.013,0.42,0.4)</stackOffset>
 
 							<drawOffsetNorth>(0.15,0,0.15)</drawOffsetNorth>
-							<drawOffsetEast>(0,100,0)</drawOffsetEast>
-							<drawOffsetSouth>(0,100,0)</drawOffsetSouth>
-							<drawOffsetWest>(0,100,0)</drawOffsetWest>
+							<drawOffsetEast>(0,0.6,0)</drawOffsetEast>
+							<drawOffsetSouth>(0,0.6,0)</drawOffsetSouth>
+							<drawOffsetWest>(0,0.6,0)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c0>
@@ -4370,12 +4438,12 @@
 							<stackBehaviour>Stack</stackBehaviour>
 							<stackOffsetFactor>1</stackOffsetFactor>
 		
-							<stackOffset>(0.013,0.7,0.4)</stackOffset>
+							<stackOffset>(0.013,0.42,0.4)</stackOffset>
 
 							<drawOffsetNorth>(-0.15,0,0.15)</drawOffsetNorth>
-							<drawOffsetEast>(0,100,0)</drawOffsetEast>
-							<drawOffsetSouth>(0,100,0)</drawOffsetSouth>
-							<drawOffsetWest>(0,100,0)</drawOffsetWest>
+							<drawOffsetEast>(0,0.6,0)</drawOffsetEast>
+							<drawOffsetSouth>(0,0.6,0)</drawOffsetSouth>
+							<drawOffsetWest>(0,0.6,0)</drawOffsetWest>
 						</r0>
 					</rows>
 				</c1>

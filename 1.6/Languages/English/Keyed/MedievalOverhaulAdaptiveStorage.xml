@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  <MOASF_RemoveDesignator_Label>Remove original MO storage buildings fomr the architect menu</MOASF_RemoveDesignator_Label>
-  <MOASF_RemoveDesignator_Desc>If enabled, the original Medieval Overhaul storage buildings will be removed from the architect menu. As those buildings are used for many different things, in dungeons, ruins, hideouts, and so on, they are not entirely removed from the game.</MOASF_RemoveDesignator_Desc>
-  
+  <MOASF_RemoveDesignator_Label>Remove replaced MO storage buildings from the architect menu</MOASF_RemoveDesignator_Label>
+  <MOASF_RemoveDesignator_Desc>If enabled, those Medieval Overhaul storage buildings that this mod offers a replacement for are removed from the architect menu. Buildings without a replacement, such as the ice cellar, the hay bales and the market stalls, stay where they are. As those buildings are used for many different things, in dungeons, ruins, hideouts, and so on, they are not entirely removed from the game.</MOASF_RemoveDesignator_Desc>
+
   <MOASF_RemoveContained_Label>Hide the contained items in MO's storage buildings</MOASF_RemoveContained_Label>
   <MOASF_RemoveContained_Desc>If enabled, the game will hide the content of the original Medieval Overhaul storage buildings.</MOASF_RemoveContained_Desc>
+
+  <MOASF_RestartRequired>These settings are applied while the game is loading. A change only takes effect after a restart.</MOASF_RestartRequired>
+  <MOASF_RestartNow>Restart now</MOASF_RestartNow>
 </LanguageData>
