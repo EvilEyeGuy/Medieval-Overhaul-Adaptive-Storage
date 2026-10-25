@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EEG_CorpsePileSquare.label>Leichenhaufen (2x2)</EEG_CorpsePileSquare.label>
+  <EEG_CorpsePileSquare.description>Eine markierte Fläche, auf der Leichen aufgehäuft werden. Ein Siedler kann den Haufen anzünden, um die Leichen zu verbrennen. Das Feuer kann auf alles in der Nähe übergreifen.</EEG_CorpsePileSquare.description>
+  <EEG_CorpsePileLong.label>Leichenhaufen (2x3)</EEG_CorpsePileLong.label>
+  <EEG_CorpsePileLong.description>Eine markierte Fläche, auf der Leichen aufgehäuft werden. Ein Siedler kann den Haufen anzünden, um die Leichen zu verbrennen. Das Feuer kann auf alles in der Nähe übergreifen.</EEG_CorpsePileLong.description>
+  <EEG_JunkPileSquare.label>Gerümpelhaufen (2x2)</EEG_JunkPileSquare.label>
+  <EEG_JunkPileSquare.description>Eine markierte Fläche, auf der man alles ablegen kann. Gedacht als Zwischenlager, deshalb standardmäßig auf niedriger Priorität. Ein Siedler kann den Haufen anzünden, um loszuwerden, was darin liegt.</EEG_JunkPileSquare.description>
+  <EEG_JunkPileLong.label>Gerümpelhaufen (2x3)</EEG_JunkPileLong.label>
+  <EEG_JunkPileLong.description>Eine markierte Fläche, auf der man alles ablegen kann. Gedacht als Zwischenlager, deshalb standardmäßig auf niedriger Priorität. Ein Siedler kann den Haufen anzünden, um loszuwerden, was darin liegt.</EEG_JunkPileLong.description>
+
+</LanguageData>

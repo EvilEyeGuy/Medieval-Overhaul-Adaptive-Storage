@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EEG_ServingPlate.label>Servierteller</EEG_ServingPlate.label>
+  <EEG_ServingPlate.description>Ein Teller für eine Mahlzeit, der auf einen Tisch gestellt wird. Fasst einen Stapel Mahlzeiten.</EEG_ServingPlate.description>
+  <EEG_ServingBowl.label>Servierschüssel</EEG_ServingBowl.label>
+  <EEG_ServingBowl.description>Eine Schüssel für eine Mahlzeit, die auf einen Tisch gestellt wird. Fasst einen Stapel Mahlzeiten.</EEG_ServingBowl.description>
+  <EEG_ServingSpot.label>Speiseplatz</EEG_ServingSpot.label>
+  <EEG_ServingSpot.description>Ein Platz auf einem Tisch für eine Mahlzeit. Fasst einen Stapel Mahlzeiten, der direkt auf dem Tisch liegt.</EEG_ServingSpot.description>
+
+</LanguageData>

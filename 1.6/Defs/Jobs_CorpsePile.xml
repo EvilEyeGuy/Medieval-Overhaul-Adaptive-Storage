@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DesignationDef>
+		<defName>EEG_BurnCorpsePile</defName>
+		<texturePath>Things/Building/Misc/Campfire</texturePath>
+		<targetType>Thing</targetType>
+		<removeIfBuildingDespawned>true</removeIfBuildingDespawned>
+	</DesignationDef>
+
+	<JobDef>
+		<defName>EEG_BurnCorpsePile_Job</defName>
+		<driverClass>MedievalOverhaulAdaptiveStorage.JobDriver_BurnCorpsePile</driverClass>
+		<reportString>setting TargetA on fire.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<WorkGiverDef>
+		<defName>EEG_BurnCorpsePile</defName>
+		<label>burn piles</label>
+		<giverClass>MedievalOverhaulAdaptiveStorage.WorkGiver_BurnCorpsePile</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>15</priorityInType>
+		<verb>burn</verb>
+		<gerund>burning</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>

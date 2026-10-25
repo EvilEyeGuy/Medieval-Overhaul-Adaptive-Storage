@@ -8,4 +8,16 @@
 
   <MOASF_RestartRequired>Diese Einstellungen werden beim Laden des Spiels angewendet. Eine Änderung wirkt erst nach einem Neustart.</MOASF_RestartRequired>
   <MOASF_RestartNow>Jetzt neu starten</MOASF_RestartNow>
+
+  <EEG_CorpsePileBurn>Leichen verbrennen</EEG_CorpsePileBurn>
+  <EEG_CorpsePileBurnDesc>Ein Siedler mit Transportarbeit zündet die Leichen in diesem Haufen an. Der Haufen selbst brennt nicht, das Feuer kann aber auf alles in der Nähe übergreifen.</EEG_CorpsePileBurnDesc>
+  <EEG_CorpsePileCancelBurn>Verbrennen abbrechen</EEG_CorpsePileCancelBurn>
+  <EEG_CorpsePileCancelBurnDesc>Niemand zündet diesen Haufen an.</EEG_CorpsePileCancelBurnDesc>
+  <EEG_CorpsePileBurnEmpty>In diesem Haufen liegen keine Leichen.</EEG_CorpsePileBurnEmpty>
+  <EEG_JunkPileBurn>Gerümpel verbrennen</EEG_JunkPileBurn>
+  <EEG_JunkPileBurnDesc>Ein Siedler mit Transportarbeit zündet alles Brennbare in diesem Haufen an. Der Haufen selbst brennt nicht, das Feuer kann aber auf alles in der Nähe übergreifen.</EEG_JunkPileBurnDesc>
+  <EEG_JunkPileBurnEmpty>In diesem Haufen liegt nichts Brennbares.</EEG_JunkPileBurnEmpty>
+  <EEG_PileBurnFailed>Im Haufen ({0}) ließ sich nichts anzünden.</EEG_PileBurnFailed>
+  <EEG_ServingNeedsTable>Muss auf einen Tisch gestellt werden.</EEG_ServingNeedsTable>
+  <EEG_ServingAlreadyThere>Hier steht schon ein Teller, eine Schüssel oder ein Speiseplatz.</EEG_ServingAlreadyThere>
 </LanguageData>

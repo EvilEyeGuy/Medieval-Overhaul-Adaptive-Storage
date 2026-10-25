@@ -8,7 +8,7 @@
 		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<researchPrerequisites Inherit="false"/>
 		<graphicData>
-			<texPath>Things/Building/Storage/PileNone</texPath>
+			<texPath>Things/Building/Storage/Brick2x2Empty</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<drawRotated>false</drawRotated>
@@ -126,7 +126,7 @@
 		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<researchPrerequisites Inherit="false"/>
 		<graphicData>
-			<texPath>Things/Building/Storage/PileNone</texPath>
+			<texPath>Things/Building/Storage/Brick2x2Empty</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -228,12 +228,12 @@
 					<rows>
 						<r0>
 							<workerClass>MedievalOverhaulAdaptiveStorage.ChunkPileItemGraphicWorker</workerClass>
-							<drawScale>0.55</drawScale>
+							<drawScale>0.69</drawScale>
 							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 						</r0>
 						<r1>
 							<workerClass>MedievalOverhaulAdaptiveStorage.ChunkPileItemGraphicWorker</workerClass>
-							<drawScale>0.55</drawScale>
+							<drawScale>0.69</drawScale>
 							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 						</r1>
 					</rows>
@@ -242,12 +242,12 @@
 					<rows>
 						<r0>
 							<workerClass>MedievalOverhaulAdaptiveStorage.ChunkPileItemGraphicWorker</workerClass>
-							<drawScale>0.55</drawScale>
+							<drawScale>0.69</drawScale>
 							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 						</r0>
 						<r1>
 							<workerClass>MedievalOverhaulAdaptiveStorage.ChunkPileItemGraphicWorker</workerClass>
-							<drawScale>0.55</drawScale>
+							<drawScale>0.69</drawScale>
 							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 						</r1>
 					</rows>
@@ -263,7 +263,7 @@
 		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
 		<researchPrerequisites Inherit="false"/>
 		<graphicData>
-			<texPath>Things/Building/Storage/PileNone</texPath>
+			<texPath>Things/Building/Storage/Brick2x3Empty</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,3)</drawSize>
 		</graphicData>
@@ -365,17 +365,17 @@
 					<rows>
 						<r0>
 							<workerClass>MedievalOverhaulAdaptiveStorage.ChunkPileItemGraphicWorker</workerClass>
-							<drawScale>0.55</drawScale>
+							<drawScale>0.69</drawScale>
 							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 						</r0>
 						<r1>
 							<workerClass>MedievalOverhaulAdaptiveStorage.ChunkPileItemGraphicWorker</workerClass>
-							<drawScale>0.55</drawScale>
+							<drawScale>0.69</drawScale>
 							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 						</r1>
 						<r2>
 							<workerClass>MedievalOverhaulAdaptiveStorage.ChunkPileItemGraphicWorker</workerClass>
-							<drawScale>0.55</drawScale>
+							<drawScale>0.69</drawScale>
 							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 						</r2>
 					</rows>
@@ -384,17 +384,17 @@
 					<rows>
 						<r0>
 							<workerClass>MedievalOverhaulAdaptiveStorage.ChunkPileItemGraphicWorker</workerClass>
-							<drawScale>0.55</drawScale>
+							<drawScale>0.69</drawScale>
 							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 						</r0>
 						<r1>
 							<workerClass>MedievalOverhaulAdaptiveStorage.ChunkPileItemGraphicWorker</workerClass>
-							<drawScale>0.55</drawScale>
+							<drawScale>0.69</drawScale>
 							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 						</r1>
 						<r2>
 							<workerClass>MedievalOverhaulAdaptiveStorage.ChunkPileItemGraphicWorker</workerClass>
-							<drawScale>0.55</drawScale>
+							<drawScale>0.69</drawScale>
 							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
 						</r2>
 					</rows>

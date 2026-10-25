@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>EEG_ServingDishes</defName>
+	</DesignatorDropdownGroupDef>
+
+	<ThingDef ParentName="DankPyon_StorageBase">
+		<defName>EEG_ServingPlate</defName>
+		<label>serving plate</label>
+		<description>A plate for a meal, placed on a table. Holds one stack of meals.</description>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
+		<designatorDropdown>EEG_ServingDishes</designatorDropdown>
+		<researchPrerequisites Inherit="false"/>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Decoration/Props/Plate</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<fillPercent>0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<clearBuildingArea>false</clearBuildingArea>
+		<stuffCategories Inherit="False">
+			<li>Woody</li>
+			<li>Metallic</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>15</costStuffCount>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Mass>1</Mass>
+			<Beauty>1</Beauty>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+			<paintable>false</paintable>
+			<maxItemsInCell>1</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>FoodMeals</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+				<priority>Preferred</priority>
+				<filter>
+					<categories>
+						<li>FoodMeals</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<placeWorkers>
+			<li>MedievalOverhaulAdaptiveStorage.PlaceWorker_OnTable</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="AdaptiveStorage.Extension">
+				<labelFormat>NoStuff</labelFormat>
+			</li>
+		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
+		<minifiedDef />
+		<thingCategories Inherit="False" />
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>EEG_ServingPlateASF</defName>
+		<targetDef>EEG_ServingPlate</targetDef>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>Things/Building/Furniture/Decoration/Props/Plate</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+				</graphicData>
+			</li>
+		</graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns>
+				<c0>
+					<rows>
+						<r0>
+							<workerClass>MedievalOverhaulAdaptiveStorage.ServingItemGraphicWorker</workerClass>
+							<drawOffset>(0,0,0.03)</drawOffset>
+							<drawScale>1</drawScale>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+						</r0>
+					</rows>
+				</c0>
+			</columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+
+	<ThingDef ParentName="DankPyon_StorageBase">
+		<defName>EEG_ServingBowl</defName>
+		<label>serving bowl</label>
+		<description>A bowl for a meal, placed on a table. Holds one stack of meals.</description>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
+		<designatorDropdown>EEG_ServingDishes</designatorDropdown>
+		<researchPrerequisites Inherit="false"/>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Decoration/Props/Bowl</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<fillPercent>0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<clearBuildingArea>false</clearBuildingArea>
+		<stuffCategories Inherit="False">
+			<li>Woody</li>
+			<li>Metallic</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>15</costStuffCount>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Mass>1</Mass>
+			<Beauty>1</Beauty>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+			<paintable>false</paintable>
+			<maxItemsInCell>1</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>FoodMeals</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+				<priority>Preferred</priority>
+				<filter>
+					<categories>
+						<li>FoodMeals</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<placeWorkers>
+			<li>MedievalOverhaulAdaptiveStorage.PlaceWorker_OnTable</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="AdaptiveStorage.Extension">
+				<labelFormat>NoStuff</labelFormat>
+			</li>
+		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
+		<minifiedDef />
+		<thingCategories Inherit="False" />
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>EEG_ServingBowlASF</defName>
+		<targetDef>EEG_ServingBowl</targetDef>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>Things/Building/Furniture/Decoration/Props/Bowl</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+				</graphicData>
+			</li>
+		</graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns>
+				<c0>
+					<rows>
+						<r0>
+							<workerClass>MedievalOverhaulAdaptiveStorage.ServingItemGraphicWorker</workerClass>
+							<drawOffset>(0,0,0.03)</drawOffset>
+							<drawScale>1</drawScale>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+						</r0>
+					</rows>
+				</c0>
+			</columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+
+	<ThingDef ParentName="DankPyon_StorageBase">
+		<defName>EEG_ServingSpot</defName>
+		<label>meal spot</label>
+		<description>A spot on a table for a meal. Holds one stack of meals, which lies directly on the table.</description>
+		<designationCategory Inherit="False">EEG_MOxASFStorage</designationCategory>
+		<designatorDropdown>EEG_ServingDishes</designatorDropdown>
+		<researchPrerequisites Inherit="false"/>
+		<graphicData>
+			<texPath>Things/Building/Storage/PileNone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.85</uiIconScale>
+		<size>(1,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<fillPercent>0</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<clearBuildingArea>false</clearBuildingArea>
+		<stuffCategories Inherit="False" />
+		<costStuffCount>0</costStuffCount>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Mass>1</Mass>
+			<Beauty>1</Beauty>
+		</statBases>
+		<building>
+			<isEdifice>false</isEdifice>
+			<paintable>false</paintable>
+			<maxItemsInCell>1</maxItemsInCell>
+			<fixedStorageSettings Inherit="false">
+				<filter>
+					<disallowNotEverStorable>true</disallowNotEverStorable>
+					<categories>
+						<li>FoodMeals</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings Inherit="False">
+				<priority>Preferred</priority>
+				<filter>
+					<categories>
+						<li>FoodMeals</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<placeWorkers>
+			<li>MedievalOverhaulAdaptiveStorage.PlaceWorker_OnTable</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="AdaptiveStorage.Extension">
+				<labelFormat>NoStuff</labelFormat>
+			</li>
+		</modExtensions>
+		<drawGUIOverlay>True</drawGUIOverlay>
+		<minifiedDef />
+		<thingCategories Inherit="False" />
+	</ThingDef>
+
+	<AdaptiveStorage.GraphicsDef>
+		<defName>EEG_ServingSpotASF</defName>
+		<targetDef>EEG_ServingSpot</targetDef>
+		<graphics>
+			<li>
+				<graphicData>
+					<texPath>Things/Building/Storage/PileNone</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(2,2)</drawSize>
+				</graphicData>
+			</li>
+		</graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns>
+				<c0>
+					<rows>
+						<r0>
+							<workerClass>MedievalOverhaulAdaptiveStorage.ServingItemGraphicWorker</workerClass>
+							<drawOffset>(0,0,0)</drawOffset>
+							<drawScale>1</drawScale>
+							<multipleItemsDrawSizeFactor>1</multipleItemsDrawSizeFactor>
+						</r0>
+					</rows>
+				</c0>
+			</columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+
+</Defs>

@@ -8,4 +8,16 @@
 
   <MOASF_RestartRequired>These settings are applied while the game is loading. A change only takes effect after a restart.</MOASF_RestartRequired>
   <MOASF_RestartNow>Restart now</MOASF_RestartNow>
+
+  <EEG_CorpsePileBurn>Burn corpses</EEG_CorpsePileBurn>
+  <EEG_CorpsePileBurnDesc>A colonist assigned to hauling sets the corpses in this pile on fire. The pile itself does not burn, but the fire can spread to anything nearby.</EEG_CorpsePileBurnDesc>
+  <EEG_CorpsePileCancelBurn>Cancel burning</EEG_CorpsePileCancelBurn>
+  <EEG_CorpsePileCancelBurnDesc>Nobody will set this pile on fire.</EEG_CorpsePileCancelBurnDesc>
+  <EEG_CorpsePileBurnEmpty>There are no corpses in this pile.</EEG_CorpsePileBurnEmpty>
+  <EEG_JunkPileBurn>Burn junk</EEG_JunkPileBurn>
+  <EEG_JunkPileBurnDesc>A colonist assigned to hauling sets everything flammable in this pile on fire. The pile itself does not burn, but the fire can spread to anything nearby.</EEG_JunkPileBurnDesc>
+  <EEG_JunkPileBurnEmpty>There is nothing flammable in this pile.</EEG_JunkPileBurnEmpty>
+  <EEG_PileBurnFailed>Nothing in the {0} could be set on fire.</EEG_PileBurnFailed>
+  <EEG_ServingNeedsTable>Must be placed on a table.</EEG_ServingNeedsTable>
+  <EEG_ServingAlreadyThere>There is already a plate, bowl or meal spot here.</EEG_ServingAlreadyThere>
 </LanguageData>
