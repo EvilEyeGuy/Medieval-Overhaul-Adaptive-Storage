@@ -20,4 +20,6 @@
   <EEG_PileBurnFailed>Im Haufen ({0}) ließ sich nichts anzünden.</EEG_PileBurnFailed>
   <EEG_ServingNeedsTable>Muss auf einen Tisch gestellt werden.</EEG_ServingNeedsTable>
   <EEG_ServingAlreadyThere>Hier steht schon ein Teller, eine Schüssel oder ein Speiseplatz.</EEG_ServingAlreadyThere>
+  <EEG_CorpsePileBurnNotFlammable>Keine der Leichen in diesem Haufen kann brennen.</EEG_CorpsePileBurnNotFlammable>
+  <EEG_JunkPileBurnNotFlammable>In diesem Haufen liegt nichts Brennbares.</EEG_JunkPileBurnNotFlammable>
 </LanguageData>

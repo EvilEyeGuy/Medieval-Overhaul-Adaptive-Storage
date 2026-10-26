@@ -20,4 +20,6 @@
   <EEG_PileBurnFailed>Nothing in the {0} could be set on fire.</EEG_PileBurnFailed>
   <EEG_ServingNeedsTable>Must be placed on a table.</EEG_ServingNeedsTable>
   <EEG_ServingAlreadyThere>There is already a plate, bowl or meal spot here.</EEG_ServingAlreadyThere>
+  <EEG_CorpsePileBurnNotFlammable>None of the corpses in this pile can burn.</EEG_CorpsePileBurnNotFlammable>
+  <EEG_JunkPileBurnNotFlammable>There is nothing flammable in this pile.</EEG_JunkPileBurnNotFlammable>
 </LanguageData>
